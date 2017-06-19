@@ -4,7 +4,17 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { HomePage } from '../pages/home/home';
-import { ListPage } from '../pages/list/list';
+import { allAboutPage } from '../pages/allabout/allabout';
+import { NewslandingPage } from '../pages/newslanding/newslanding';
+import { TheSpeakersPage } from '../pages/thespeakers/thespeakers';
+import { SchedPage } from '../pages/sched/sched';
+import { Dubai101Page } from '../pages/dubai101/dubai101';
+import { MerchandisePage } from '../pages/merchandise/merchandise';
+import { MarkPage } from '../pages/mark/mark';
+import { DownloadsPage } from '../pages/downloads/downloads';
+import { FaqsPage } from '../pages/faqs/faqs';
+import { ContactPage } from '../pages/contact/contact';
+
 
 @Component({
   templateUrl: 'app.html'
@@ -22,7 +32,16 @@ export class MyApp {
     // used for an example of ngFor and navigation
     this.pages = [
       { title: 'Home', component: HomePage },
-      { title: 'List', component: ListPage }
+      { title: 'All About V-UAE 2017', component: allAboutPage },
+      { title: 'News and Updates', component: NewslandingPage },
+      { title: 'The Speakers', component: TheSpeakersPage },
+      { title: 'Daily Program Schedule', component: SchedPage },
+      { title: 'Dubai 101', component: Dubai101Page },
+      { title: 'Merchandise', component: MerchandisePage },
+      { title: 'Make Your V-Con Mark', component: MarkPage },
+      { title: '#VUAE17 Wallpapers', component: DownloadsPage },
+      { title: 'FAQs', component: FaqsPage },
+      { title: 'Contact Us', component: ContactPage }
     ];
 
   }

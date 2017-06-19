@@ -1,4 +1,5 @@
-<ion-header>
+
+  <ion-header>
   <ion-navbar>
     <button ion-button menuToggle>
       <ion-icon name="menu"></ion-icon>
@@ -7,12 +8,55 @@
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  <h3>Ionic Menu Starter</h3>
+<ion-content>
+  <header class="mainScr">
+    <div class="msg">
+      <h4>MAY 3-7, 2017</h4>
+      <p>SUBTERRANEAN PENANG INTERNATIONAL CONVENTION & EXHIBITION CENTRE, PENANG, MALAYSIA</p>
+    </div>
+  </header>
 
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will show you the way.
-  </p>
+  <!-- VCON Categories -->
+  <div class="categories nopad">
+    <div class="row nopad">
+      <a href="#/app/allAboutPage" class="col col-50 nopad">
+        <div class="title"><span class="tinytxt">ALL ABOUT</span> V-UAE <span class="tinytxt">2017</span></div>
+      </a>
+      <a href="#/app/mark" class="col col-50 nopad">
+        <div class="title"><span class="tinytxt">Make Your</span> V-Con Mark</div>
+      </a>
+    </div>
+    <div class="row nopad">
+      <a href="#/app/downloads" class="col col-50 nopad" txt50>
+        <div class="title" style="font-size: 16px;">Exclusive V-Con 2017 Downloads</div>
+      </a>
+      <a href="#/app/penang101" class="col col-50 nopad">
+        <div class="title">DUBAI<span class="tinytxt">101</span></div>
+      </a>
+    </div>
+  </div>
 
-  <button ion-button secondary menuToggle>Toggle Menu</button>
+
+  <div class="newscat">
+    <h6>NEWS AND UPDATES</h6>
+    <div class="row" >
+      <a href="" nav-direction="forward"  class="col item">
+        <h4>Title</h4>
+        <h3>in (category) </h3>
+        <img src=""  width="100%" height="auto" class="center ">
+
+        <div class="row">
+          <span class="col col-50 nopad date">Date</span>
+        </div>
+      </a>
+
+    </div>
+  </div>
+
+  <div class="backtotop" ng-controller="PlaylistsCtrl"  ng-click="scrollTop()">
+    <i class="ion-android-arrow-up"></i> &nbsp; &nbsp;
+    Back to Top
+  </div>
+
+
 </ion-content>
