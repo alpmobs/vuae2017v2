@@ -1,10 +1,9 @@
 <ion-header>
-  <ion-navbar>
+  <ion-toolbar>
     <button ion-button menuToggle>
       <ion-icon name="menu"></ion-icon>
     </button>
-    <ion-title>News</ion-title>
-  </ion-navbar>
+  </ion-toolbar>
 </ion-header>
 
 <ion-content>
@@ -14,12 +13,12 @@
   <article class="cusContent">
 
     <div class="row">
-      <a href="#/app/vmp-dato" nav-direction="forward" class="col col-50">
+      <a [navPush]="VMPPage" nav-direction="forward" class="col col-50">
         <img src="../assets/img/m-vf-dsve.png" width="100%" height="auto" class="center ">
         <div class="name light-blue">V Founder</div>
         <div class="name">Dato’ Sri Vijay Eswaran </div>
       </a>
-      <a href="#/app/vfp-jtb" nav-direction="forward" class="col col-50">
+      <a [navPush]="VFPPage" nav-direction="forward" class="col col-50">
         <img src="../assets/img/m-vf-jtb.png" width="100%" height="auto" class="center ">
         <div class="name light-blue">V Founder</div>
         <div class="name">Joseph Bismark</div>
@@ -27,97 +26,97 @@
     </div>
 
     <div class="row">
-      <a href="#/app/vp-tg" nav-direction="forward" class="col col-33">
+      <a [navPush]="VPtgPage" nav-direction="forward" class="col col-33">
           <img src="../assets/img/m-vp-tg.png" width="100%" height="auto" class="center ">
           <div class="name light-blue">V Partner</div>
           <div class="name">TG Kintanar</div>
       </a>
-      <a href="#/app/vp-dil" nav-direction="forward" class="col col-33">
+      <a [navPush]="VPdiPage" nav-direction="forward" class="col col-33">
           <img src="../assets/img/m-vp-dil.png" width="100%" height="auto" class="center ">
           <div class="name light-blue">V Partner</div>
           <div class="name">Donna Marie Imson-Lecaroz</div>
       </a>
-      <a href="#/app/vp-rs" nav-direction="forward" class="col col-33">
+      <a [navPush]="VPrsPage" nav-direction="forward" class="col col-33">
           <img src="../assets/img/m-vp-rs.png" width="100%" height="auto" class="center ">
            <div class="name light-blue">V Partner</div>
            <div class="name">Ranjit Singh</div>
       </a>
     </div>
     <div class="row">
-      <a href="#/app/vp-ks" nav-direction="forward" class="col col-33">
+      <a [navPush]="VPksPage" nav-direction="forward" class="col col-33">
           <img src="../assets/img/m-vp-ks.png" width="100%" height="auto" class="center ">
           <div class="name light-blue">V Partner</div>
           <div class="name">Kuna Senathirajah</div>
       </a>
-      <a href="#/app/vp-ps" nav-direction="forward" class="col col-33">
+      <a [navPush]="VPpsPage" nav-direction="forward" class="col col-33">
         <img src="../assets/img/m-vp-ps.png" width="100%" height="auto" class="center ">
         <div class="name light-blue">V Partner</div>
         <div class="name">Pathman Senathirajah</div>
       </a>
-      <a href="#/app/vp-ag" nav-direction="forward" class="col col-33">
+      <a [navPush]="VPagPage" nav-direction="forward" class="col col-33">
         <img src="../assets/img/m-vp-ag.png" width="100%" height="auto" class="center ">
         <div class="name light-blue">V Partner</div>
         <div class="name">Arun George</div>
       </a>
     </div>
     <div class="row">
-      <a href="#/app/vp-ah" nav-direction="forward" class="col col-33">
+      <a [navPush]="VPahPage" nav-direction="forward" class="col col-33">
         <img src="../assets/img/m-vp-ah.png" width="100%" height="auto" class="center ">
         <div class="name light-blue">V Partner</div>
         <div class="name">Adly Hassan</div>
       </a>
-      <a href="#/app/vp-ss" nav-direction="forward" class="col col-33">
+      <a [navPush]="VPssPage" nav-direction="forward" class="col col-33">
         <img src="../assets/img/m-vp-ss.png" width="100%" height="auto" class="center ">
         <div class="name light-blue">V Partner</div>
         <div class="name">Sathi Senathirajah</div>
       </a>
-      <a href="#/app/vp-ft" nav-direction="forward" class="col col-33">
+      <a [navPush]="VPftPage" nav-direction="forward" class="col col-33">
         <img src="../assets/img/m-vp-ft.png" width="100%" height="auto" class="center ">
         <div class="name light-blue">V Partner</div>
         <div class="name">Ferdie Tolentino</div>
       </a>
     </div>
     <div class="row">
-      <a href="#/app/vp-cm" nav-direction="forward" class="col col-33">
+      <a [navPush]="VPcmPage" nav-direction="forward" class="col col-33">
         <img src="../assets/img/m-vp-cm.png" width="100%" height="auto" class="center ">
         <div class="name light-blue">V Partner</div>
         <div class="name">Cherian Matthew</div>
       </a>
-      <a href="#/app/vp-ds" nav-direction="forward" class="col col-33">
+      <a [navPush]="VPdsPage" nav-direction="forward" class="col col-33">
         <img src="../assets/img/m-vp-ds.png" width="100%" height="auto" class="center ">
         <div class="name light-blue">V Partner</div>
         <div class="name">David Sharma</div>
       </a>
-      <a href="#/app/vp-mk" nav-direction="forward" class="col col-33">
+      <a [navPush]="VPmkPage" nav-direction="forward" class="col col-33">
         <img src="../assets/img/m-vp-mk.png" width="100%" height="auto" class="center ">
         <div class="name light-blue">V Partner</div>
         <div class="name">Mahendra Kumar</div>
       </a>
     </div>
     <div class="row">
-      <a href="#/app/vp-dmq" nav-direction="forward" class="col col-33">
+      <a [navPush]="VPmqPage" nav-direction="forward" class="col col-33">
         <img src="../assets/img/m-vp-dmq.png" width="100%" height="auto" class="center ">
         <div class="name light-blue">V Partner</div>
         <div class="name">Dr. Motaz Qais</div>
       </a>
-      <a href="#/app/vp-kp" nav-direction="forward" class="col col-33">
+      <a [navPush]="VPkpPage" nav-direction="forward" class="col col-33">
         <img src="../assets/img/m-vp-kp.png" width="100%" height="auto" class="center ">
         <div class="name light-blue">V Partner</div>
         <div class="name">K Padma</div>
       </a>
-      <a href="#/app/vp-hn" nav-direction="forward" class="col col-33">
+      <a [navPush]="VPhnPage" nav-direction="forward" class="col col-33">
         <img src="../assets/img/m-vp-kp.png" width="100%" height="auto" class="center ">
         <div class="name light-blue">V Partner</div>
         <div class="name">Hendra Nilam</div>
       </a>
     </div>
     <div class="row">
-      <a href="#/app/vp-dj" nav-direction="forward" class="col col-33">
+      <a [navPush]="VPdjPage" nav-direction="forward" class="col col-33">
         <img src="../assets/img/m-vp-dmq.png" width="100%" height="auto" class="center ">
         <div class="name light-blue">V Partner</div>
         <div class="name">Dev Johl</div>
       </a>
-      <a href="#/app/vp-dw" nav-direction="forward" class="col col-33">
+      <a [navPush]="VPdwPage" nav-direction="forward" class="col col-33">
         <img src="../assets/img/m-vp-kp.png" width="100%" height="auto" class="center ">
         <div class="name light-blue">V Partner</div>
         <div class="name">Dev Wadhwani</div>
@@ -134,3 +133,20 @@
   </article>
 
 </ion-content>
+
+<ion-footer>
+  <ion-toolbar>
+    <ion-buttons start>
+      <button [navPush]="HomePage" ion-button icon-left>
+        <ion-icon name="arrow-back"></ion-icon>
+        News & Updates
+      </button>
+    </ion-buttons>
+    <ion-buttons end>
+      <button [navPush]="NewslandingPage" ion-button icon-right>
+        Daily Program Schedule
+        <ion-icon ios="ios-arrow-forward" name="arrow-forward"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-footer>

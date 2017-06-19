@@ -1,12 +1,10 @@
 <ion-header>
-  <ion-navbar>
+  <ion-toolbar>
     <button ion-button menuToggle>
       <ion-icon name="menu"></ion-icon>
     </button>
-    <ion-title>NEWS and UPDATES</ion-title>
-  </ion-navbar>
+  </ion-toolbar>
 </ion-header>
-
 <ion-content>
   <header class="mainScr mid">
     <h1>NEWS and UPDATES</h1>
@@ -43,13 +41,13 @@
 <ion-footer>
   <ion-toolbar>
     <ion-buttons start>
-      <button ion-button icon-left>
+      <button [navPush]="allAboutPage" ion-button icon-left>
         <ion-icon name="arrow-back"></ion-icon>
         About V-UAE 2017
       </button>
     </ion-buttons>
     <ion-buttons end>
-      <button ion-button icon-right>
+      <button [navPush]="TheSpeakersPage" ion-button icon-right>
         The Speakers
         <ion-icon ios="ios-arrow-forward" name="arrow-forward"></ion-icon>
       </button>

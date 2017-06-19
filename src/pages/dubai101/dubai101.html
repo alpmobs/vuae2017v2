@@ -1,10 +1,9 @@
 <ion-header>
-  <ion-navbar>
+  <ion-toolbar>
     <button ion-button menuToggle>
       <ion-icon name="menu"></ion-icon>
     </button>
-    <ion-title>Dubai 101</ion-title>
-  </ion-navbar>
+  </ion-toolbar>
 </ion-header>
 
 <ion-content>
@@ -15,10 +14,27 @@
 
     <p class="headline">First time in Malaysia’s island state? Here are some helpful quick links on where to stay, what to do, and how to get around Penang!</p>
     <div class="menus">
-      <a href="#/app/whereto">WHERE TO STAY IN PENANG</a>
-      <a href="#/app/howto">HOW TO GET AROUND PENANG</a>
-      <a href="#/app/whatto">WHAT TO DO IN PENANG</a>
+      <a [navPush]="WheretoPage">WHERE TO STAY IN PENANG</a>
+      <a [navPush]="HowtoPage">HOW TO GET AROUND PENANG</a>
+      <a [navPush]="WhattoPage">WHAT TO DO IN PENANG</a>
     </div>
 
   </article>
 </ion-content>
+
+<ion-footer>
+  <ion-toolbar>
+    <ion-buttons start>
+      <button [navPush]="HomePage" ion-button icon-left>
+        <ion-icon name="arrow-back"></ion-icon>
+        Daily Program Schedule
+      </button>
+    </ion-buttons>
+    <ion-buttons end>
+      <button [navPush]="NewslandingPage" ion-button icon-right>
+        Merchandise
+        <ion-icon ios="ios-arrow-forward" name="arrow-forward"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-footer>

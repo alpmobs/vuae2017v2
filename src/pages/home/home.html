@@ -1,11 +1,9 @@
-
-  <ion-header>
-  <ion-navbar>
+<ion-header>
+  <ion-toolbar>
     <button ion-button menuToggle>
       <ion-icon name="menu"></ion-icon>
     </button>
-    <ion-title>Home</ion-title>
-  </ion-navbar>
+  </ion-toolbar>
 </ion-header>
 
 <ion-content>
@@ -22,15 +20,15 @@
       <a [navPush]="allAboutPage" class="col col-50 nopad">
         <div class="title"><span class="tinytxt">ALL ABOUT</span> V-UAE <span class="tinytxt">2017</span></div>
       </a>
-      <a href="#/app/mark" class="col col-50 nopad">
+      <a [navPush]="MarkPage" class="col col-50 nopad">
         <div class="title"><span class="tinytxt">Make Your</span> V-Con Mark</div>
       </a>
     </div>
     <div class="row nopad">
-      <a href="#/app/downloads" class="col col-50 nopad" txt50>
+      <a [navPush]="DownloadsPage" class="col col-50 nopad" txt50>
         <div class="title" style="font-size: 16px;">Exclusive V-Con 2017 Downloads</div>
       </a>
-      <a href="#/app/penang101" class="col col-50 nopad">
+      <a [navPush]="Dubai101Page" class="col col-50 nopad">
         <div class="title">DUBAI<span class="tinytxt">101</span></div>
       </a>
     </div>

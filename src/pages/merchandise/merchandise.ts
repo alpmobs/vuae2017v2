@@ -1,14 +1,18 @@
 import { Component } from '@angular/core';
-import { NavController, NavParams } from 'ionic-angular';
+import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
+@IonicPage()
 @Component({
-  selector: 'page-merch',
+  selector: 'page-merchandise',
   templateUrl: 'merchandise.html'
 })
 export class MerchandisePage {
 
-  constructor(public navCtrl: NavController) {
+constructor() {
+}
 
-  }
+ionViewDidLoad() {
+  console.log('ionViewDidLoad MerchandisePage');
+}
 
 }

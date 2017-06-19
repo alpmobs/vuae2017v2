@@ -1,14 +1,18 @@
 import { Component } from '@angular/core';
-import { NavController, NavParams } from 'ionic-angular';
+import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { WhattoPage } from '../whatto/whatto';
+import { WheretoPage } from '../whereto/whereto';
+import { HowtoPage } from '../howto/howto';
+
 
 @Component({
   selector: 'page-dubai101',
   templateUrl: 'dubai101.html'
 })
 export class Dubai101Page {
-
-  constructor(public navCtrl: NavController) {
-
-  }
+HowtoPage = HowtoPage;
+WheretoPage = WheretoPage;
+WhattoPage = WhattoPage;
+  constructor() {}
 
 }

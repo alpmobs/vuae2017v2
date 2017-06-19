@@ -1,6 +1,9 @@
 import { Component } from '@angular/core';
-import { NavController } from 'ionic-angular';
+import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { allAboutPage } from '../allabout/allabout';
+import { MarkPage } from '../mark/mark';
+import { Dubai101Page } from '../dubai101/dubai101';
+import { DownloadsPage } from '../downloads/downloads';
 
 @Component({
   selector: 'page-home',
@@ -8,9 +11,8 @@ import { allAboutPage } from '../allabout/allabout';
 })
 export class HomePage {
 allAboutPage = allAboutPage;
-
-  constructor() {
-
-  }
-
+MarkPage = MarkPage;
+Dubai101Page = Dubai101Page;
+DownloadsPage = DownloadsPage;
+  constructor() {}
 }

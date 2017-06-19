@@ -1,10 +1,9 @@
 <ion-header>
-  <ion-navbar>
+  <ion-toolbar>
     <button ion-button menuToggle>
       <ion-icon name="menu"></ion-icon>
     </button>
-    <ion-title>About V-UAE 2017</ion-title>
-  </ion-navbar>
+  </ion-toolbar>
 </ion-header>
 
 <ion-content>
@@ -26,14 +25,14 @@
 <ion-footer>
   <ion-toolbar>
     <ion-buttons start>
-      <button ion-button icon-left>
+      <button [navPush]="HomePage" ion-button icon-left>
         <ion-icon name="arrow-back"></ion-icon>
         Home
       </button>
     </ion-buttons>
     <ion-buttons end>
-      <button ion-button icon-right>
-        Next Page
+      <button [navPush]="NewslandingPage" ion-button icon-right>
+        News & Updates
         <ion-icon ios="ios-arrow-forward" name="arrow-forward"></ion-icon>
       </button>
     </ion-buttons>
