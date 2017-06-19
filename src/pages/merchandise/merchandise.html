@@ -1,0 +1,30 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Merchandise</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <header class="mainScr mid">
+    <h1>Merchandise</h1>
+  </header>
+  <article class="cusContent">
+
+    <p class="headline"> Visit The V Booth, and get your hands on these EXCLUSIVE V-Malaysia 2017 merchandise!</p>
+    <div class="merchCont">
+      <div class="item" ng-repeat="imerch in myMerchandise">
+        <!-- START MERCHANDISE ITEM-->
+        <div><img src="" width="100%" height="auto" class="center "></div>
+
+        <div class="row merch-item">
+          <div class="col col-80 merch-text">Title</div>
+          <div class="col col-20 merch-price">Price</div>
+        </div>
+      </div>
+
+  </div>
+  </article>
+</ion-content>

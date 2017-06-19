@@ -1,0 +1,58 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>NEWS and UPDATES</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <header class="mainScr mid">
+    <h1>NEWS and UPDATES</h1>
+  </header>
+  <article class="cusContent">
+
+    <div class="list">
+      <!-- <a href="#/app/news?id={{mnews.Title}}" nav-direction="forward" class="item item-thumbnail-left" href="#" ng-repeat="mnews in myNews | filter: '2017' | orderBy: 'mnews.CreatedOn'">
+        <img  src="{{mnews.ImageLink}}" width="100%" height="auto" class="center ">
+        <h2>{{mnews.localTitle}}</h2>
+      </a> -->
+      <div class="newscat">
+
+    <div class="row" >
+      <a href="#" nav-direction="forward"  class="col item">
+        <h4>Title</h4>
+        <h3>in (category) </h3>
+        <img src=""  width="100%" height="auto" class="center ">
+
+        <div class="row">
+          <span class="col col-50 nopad date">Date</span>
+        </div>
+      </a>
+
+    </div>
+  </div>
+
+    </div>
+
+  </article>
+
+
+</ion-content>
+<ion-footer>
+  <ion-toolbar>
+    <ion-buttons start>
+      <button ion-button icon-left>
+        <ion-icon name="arrow-back"></ion-icon>
+        About V-UAE 2017
+      </button>
+    </ion-buttons>
+    <ion-buttons end>
+      <button ion-button icon-right>
+        The Speakers
+        <ion-icon ios="ios-arrow-forward" name="arrow-forward"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-footer>
