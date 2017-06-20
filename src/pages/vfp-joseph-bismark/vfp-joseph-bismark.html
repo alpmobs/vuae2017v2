@@ -39,24 +39,23 @@
 
     </p>
 
-  <div class="backtotop" ng-controller="PlaylistsCtrl"  ng-click="scrollTop()">
-    <ion-icon name="arrow-up"></ion-icon> &nbsp; &nbsp;
-    Back to Top
-  </div>
+    <div (click)="scrollToTop()" class="backtotop">
+      <ion-icon name="arrow-up"></ion-icon> &nbsp; &nbsp; Back to Top
+    </div>
 
   </article></ion-content>
 
 <ion-footer>
   <ion-toolbar>
     <ion-buttons start>
-      <button [navPush]="HomePage" ion-button icon-left>
+      <button [navPush]="TheSpeakersPage" ion-button icon-left>
         <ion-icon name="arrow-back"></ion-icon>
         The Speakers
       </button>
     </ion-buttons>
     <ion-buttons end>
-      <button [navPush]="NewslandingPage" ion-button icon-right>
-        Daily Program Schedule
+      <button [navPush]="VPtgPage" ion-button icon-right>
+        VP TG Kintanar
         <ion-icon ios="ios-arrow-forward" name="arrow-forward"></ion-icon>
       </button>
     </ion-buttons>

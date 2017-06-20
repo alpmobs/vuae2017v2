@@ -27,10 +27,9 @@
       With his appointment as a V Partner, Mr. Kuna brings with him a wealth of experience in conducting trainings before international crowds; developing markets in countries untapped; and strengthening ties between Corporate and the steadily growing network of global leaders, a commitment he shares with the other 13 V Partners.
 
     </p>
-    <div class="backtotop" ng-controller="PlaylistsCtrl"  ng-click="scrollTop()">
-    <i class="ion-ios-arrow-up"></i> &nbsp; &nbsp;
-    Back to Top
-  </div>
+    <div (click)="scrollToTop()" class="backtotop">
+      <ion-icon name="arrow-up"></ion-icon> &nbsp; &nbsp; Back to Top
+    </div>
 
   </article>
 </ion-content>
@@ -38,14 +37,14 @@
 <ion-footer>
   <ion-toolbar>
     <ion-buttons start>
-      <button [navPush]="HomePage" ion-button icon-left>
+      <button [navPush]="TheSpeakersPage" ion-button icon-left>
         <ion-icon name="arrow-back"></ion-icon>
-        News & Updates
+        The Speakers
       </button>
     </ion-buttons>
     <ion-buttons end>
-      <button [navPush]="NewslandingPage" ion-button icon-right>
-        Daily Program Schedule
+      <button [navPush]="VPpsPage" ion-button icon-right>
+        Pathman Senathirajah
         <ion-icon ios="ios-arrow-forward" name="arrow-forward"></ion-icon>
       </button>
     </ion-buttons>

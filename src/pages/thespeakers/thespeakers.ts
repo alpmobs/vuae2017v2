@@ -19,12 +19,17 @@ import { VPpsPage } from '../vp-pathman-senathirajah/vp-pathman-senathirajah';
 import { VPrsPage } from '../vp-ranjit-singh/vp-ranjit-singh';
 import { VPssPage } from '../vp-sathi-senathirajah/vp-sathi-senathirajah';
 import { VPtgPage } from '../vp-tg-kintanar/vp-tg-kintanar';
+import { NewslandingPage } from '../newslanding/newslanding';
+import { SchedPage } from '../sched/sched';
 
 @Component({
   selector: 'page-thespeakers',
   templateUrl: 'thespeakers.html'
 })
 export class TheSpeakersPage {
+  NewslandingPage = NewslandingPage;
+  SchedPage = SchedPage;
+
   @ViewChild(Content) content: Content;
 
   scrollToTop() {

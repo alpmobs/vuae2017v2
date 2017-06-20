@@ -37,10 +37,9 @@
       Now, among the ranks of the V Partners, he is proud to be part of a global mission that empowers people from all walks to life to raise themselves up!
 
     </p>
-    <div class="backtotop" ng-controller="PlaylistsCtrl"  ng-click="scrollTop()">
-    <i class="ion-ios-arrow-up"></i> &nbsp; &nbsp;
-    Back to Top
-  </div>
+    <div (click)="scrollToTop()" class="backtotop">
+      <ion-icon name="arrow-up"></ion-icon> &nbsp; &nbsp; Back to Top
+    </div>
 
   </article>
 </ion-content>
@@ -48,14 +47,14 @@
 <ion-footer>
   <ion-toolbar>
     <ion-buttons start>
-      <button [navPush]="HomePage" ion-button icon-left>
+      <button [navPush]="TheSpeakersPage" ion-button icon-left>
         <ion-icon name="arrow-back"></ion-icon>
-        News & Updates
+        The Speakers
       </button>
     </ion-buttons>
     <ion-buttons end>
-      <button [navPush]="NewslandingPage" ion-button icon-right>
-        Daily Program Schedule
+      <button [navPush]="VPmqPage" ion-button icon-right>
+        Dr. Motaz Qais
         <ion-icon ios="ios-arrow-forward" name="arrow-forward"></ion-icon>
       </button>
     </ion-buttons>

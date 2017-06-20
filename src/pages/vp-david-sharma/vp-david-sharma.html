@@ -28,10 +28,9 @@
       Today, VP David takes his roles as a V Partner and The V Executive Director very seriously, and he attributes his success and renewed vigor to V Founder Dato’ Sri Vijay Eswaran and V Managing Director Pathman Senathirajah – the two people in his life who gave him guidance and support to fulfill his duties and responsibilities. Today, he reciprocates this goodwill by further guiding the company and the network to greater heights.
 
     </p>
-    <div class="backtotop" ng-controller="PlaylistsCtrl"  ng-click="scrollTop()">
-    <ion-icon name="arrow-up"></ion-icon> &nbsp; &nbsp;
-    Back to Top
-  </div>
+    <div (click)="scrollToTop()" class="backtotop">
+      <ion-icon name="arrow-up"></ion-icon> &nbsp; &nbsp; Back to Top
+    </div>
 
   </article>
 </ion-content>
@@ -39,14 +38,14 @@
 <ion-footer>
   <ion-toolbar>
     <ion-buttons start>
-      <button [navPush]="HomePage" ion-button icon-left>
+      <button [navPush]="TheSpeakersPage" ion-button icon-left>
         <ion-icon name="arrow-back"></ion-icon>
-        News & Updates
+        The Speakers
       </button>
     </ion-buttons>
     <ion-buttons end>
-      <button [navPush]="NewslandingPage" ion-button icon-right>
-        Daily Program Schedule
+      <button [navPush]="VPmkPage" ion-button icon-right>
+        Mahendra Kumar
         <ion-icon ios="ios-arrow-forward" name="arrow-forward"></ion-icon>
       </button>
     </ion-buttons>

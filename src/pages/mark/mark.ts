@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { MerchandisePage } from '../merchandise/merchandise';
+import { DownloadsPage } from '../downloads/downloads';
 
 @IonicPage()
 @Component({
@@ -7,8 +9,9 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   templateUrl: 'mark.html'
 })
 export class MarkPage {
-
-constructor(public navCtrl: NavController, public navParams: NavParams) {
+DownloadsPage = DownloadsPage;
+MerchandisePage = MerchandisePage;
+constructor() {
 }
 
 ionViewDidLoad() {

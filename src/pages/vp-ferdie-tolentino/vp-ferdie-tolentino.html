@@ -37,10 +37,9 @@
       Apart from the day-to-day networking and changing lives, he is very much a family man preferring to spend his hours on sports, watching movies or simply strolling the local mall with wife and daughters. Looking up to the likes of Mother Theresa, Mahatma Gandhi and Cory Aquino, VP Ferdie stands strong in his belief that ordinary people can, indeed, do the extraordinary!
 
     </p>
-    <div class="backtotop" ng-controller="PlaylistsCtrl"  ng-click="scrollTop()">
-    <i class="ion-ios-arrow-up"></i> &nbsp; &nbsp;
-    Back to Top
-  </div>
+    <div (click)="scrollToTop()" class="backtotop">
+      <ion-icon name="arrow-up"></ion-icon> &nbsp; &nbsp; Back to Top
+    </div>
 
   </article>
 </ion-content>
@@ -48,14 +47,14 @@
 <ion-footer>
   <ion-toolbar>
     <ion-buttons start>
-      <button [navPush]="HomePage" ion-button icon-left>
+      <button [navPush]="TheSpeakersPage" ion-button icon-left>
         <ion-icon name="arrow-back"></ion-icon>
-        News & Updates
+        The Speakers
       </button>
     </ion-buttons>
     <ion-buttons end>
-      <button [navPush]="NewslandingPage" ion-button icon-right>
-        Daily Program Schedule
+      <button [navPush]="VPcmPage" ion-button icon-right>
+        Cherian Mathew
         <ion-icon ios="ios-arrow-forward" name="arrow-forward"></ion-icon>
       </button>
     </ion-buttons>

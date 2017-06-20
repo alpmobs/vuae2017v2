@@ -38,11 +38,9 @@
       <br/><br/>
       VP Cherian Mathew wants to be known as somebody that never gives up. “I think that I believe in a person more than they believe in themselves,” he said. This never give up attitude has what groomed VP Cherian Mathew to grow and be the top leader that he is today.
     </p>
-    <div class="backtotop" ng-controller="PlaylistsCtrl"  ng-click="scrollTop()">
-
-      <ion-icon name="arrow-up"></ion-icon> &nbsp; &nbsp;
-    Back to Top
-  </div>
+    <div (click)="scrollToTop()" class="backtotop">
+      <ion-icon name="arrow-up"></ion-icon> &nbsp; &nbsp; Back to Top
+    </div>
 
   </article>
 </ion-content>
@@ -51,14 +49,14 @@
 <ion-footer>
   <ion-toolbar>
     <ion-buttons start>
-      <button [navPush]="HomePage" ion-button icon-left>
+      <button [navPush]="TheSpeakersPage" ion-button icon-left>
         <ion-icon name="arrow-back"></ion-icon>
-        News & Updates
+        The Speakers
       </button>
     </ion-buttons>
     <ion-buttons end>
-      <button [navPush]="NewslandingPage" ion-button icon-right>
-        Daily Program Schedule
+      <button [navPush]="VPdsPage" ion-button icon-right>
+        David Sharma
         <ion-icon ios="ios-arrow-forward" name="arrow-forward"></ion-icon>
       </button>
     </ion-buttons>
