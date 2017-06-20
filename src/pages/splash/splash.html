@@ -1,29 +1,26 @@
-
 <ion-content>
 
-      <article class="selectLang">
-        <ion-list>
-          <a href="#/app/splashnext" nav-direction="forward">
-          <ion-radio ng-model="choice" ng-value="'A'" ng-click="getLang(choice)">English</ion-radio>
-          </a>
+  <article class="selectLang">
+    <ion-list class="selectLang" radio-group [(ngModel)]="language">
+      <a ion-item [navPush]="SplashnextPage">
+        <ion-label>English</ion-label>
+      </a>
+      <a ion-item [navPush]="SplashnextPage">
+        <ion-label dir="RTL">العربية</ion-label>
+      </a>
+      <a ion-item [navPush]="SplashnextPage">
+        <ion-label>Bahasa-Indonesia</ion-label>
+      </a>
+      <a ion-item [navPush]="SplashnextPage">
+        <ion-label>Français</ion-label>
+      </a>
+      <a ion-item [navPush]="SplashnextPage">
+        <ion-label>Türk</ion-label>
+      </a>
+      <a ion-item [navPush]="SplashnextPage">
+        <ion-label>рсский</ion-label>
+      </a>
+    </ion-list>
 
-          <a href="#/app/splashnext-ar" nav-direction="forward"  ng-click="getLang(choice)">
-          <ion-radio ng-model="choice" ng-value="'B'" dir="RTL">العربية</ion-radio>
-          </a>
-
-          <a href="#/app/splashnext-fr" nav-direction="forward"  ng-click="getLang(choice)">
-          <ion-radio ng-model="choice" ng-value="'D'">Français </ion-radio >
-          </a>
-
-          <a href="#/app/splashnext-ru" nav-direction="forward"  ng-click="getLang(choice)">
-          <ion-radio ng-model="choice" ng-value="'F'">Русский</ion-radio>
-          </a>
-
-          <a href="#/app/splashnext-tr" nav-direction="forward"  ng-click="getLang(choice)">
-          <ion-radio ng-model="choice" ng-value="'E'">Türkçe</ion-radio>
-          </a>
-
-        </ion-list>
-      </article>
-
+  </article>
 </ion-content>

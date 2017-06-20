@@ -1,14 +1,14 @@
-import { Component } from '@angular/core';
-import { NavController, NavParams } from 'ionic-angular';
+import { Component, ViewChild } from '@angular/core';
+import { IonicPage, Content, NavController, NavParams } from 'ionic-angular';
+import { SplashPage } from '../splash/splash';
+import { HomePage } from '../home/home';
 
 @Component({
   selector: 'page-splashnext',
   templateUrl: 'splashnext.html'
 })
 export class SplashnextPage {
-
-  constructor(public navCtrl: NavController) {
-
-  }
-
+  SplashPage = SplashPage;
+  HomePage = HomePage;
+  constructor() {}
 }
