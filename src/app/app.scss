@@ -982,12 +982,12 @@ page-contact.ar article.cusContent p { text-align: center !important; }
 #splash {
   background-color: #2A3A80;
 }
-article.selectLang, article.welcomeCont {
+article.page-change, article.welcomeCont {
   height: 100vh;
   position: relative;
 }
 
-.selectLang input[type="radio"] {
+.page-change input[type="radio"] {
   display: none;
 }
 
