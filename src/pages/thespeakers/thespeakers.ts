@@ -1,5 +1,5 @@
-import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { Component, ViewChild } from '@angular/core';
+import { IonicPage, Content, NavController, NavParams } from 'ionic-angular';
 import { VFPPage } from '../vfp-joseph-bismark/vfp-joseph-bismark';
 import { VMPPage } from '../vmp-dato-sri-vijay-eswaran/vmp-dato-sri-vijay-eswaran';
 import { VPahPage } from '../vp-adly-hassan/vp-adly-hassan';
@@ -25,28 +25,35 @@ import { VPtgPage } from '../vp-tg-kintanar/vp-tg-kintanar';
   templateUrl: 'thespeakers.html'
 })
 export class TheSpeakersPage {
-VFPPage = VFPPage;
-VMPPage = VMPPage;
-VPahPage = VPahPage;
-VPagPage = VPagPage;
-VPcmPage = VPcmPage;
-VPdsPage = VPdsPage;
-VPdjPage = VPdjPage;
-VPdwPage = VPdwPage;
-VPdiPage = VPdiPage;
-VPmqPage = VPmqPage;
-VPftPage = VPftPage;
-VPhnPage = VPhnPage;
-VPkpPage = VPkpPage;
-VPksPage = VPksPage;
-VPmkPage = VPmkPage;
-VPpsPage = VPpsPage;
-VPrsPage = VPrsPage;
-VPssPage = VPssPage;
-VPtgPage = VPtgPage;
-constructor() {}
-ionViewDidLoad() {
+  @ViewChild(Content) content: Content;
+
+  scrollToTop() {
+    this.content.scrollToTop();
+  }
+
+  VFPPage = VFPPage;
+  VMPPage = VMPPage;
+  VPahPage = VPahPage;
+  VPagPage = VPagPage;
+  VPcmPage = VPcmPage;
+  VPdsPage = VPdsPage;
+  VPdjPage = VPdjPage;
+  VPdwPage = VPdwPage;
+  VPdiPage = VPdiPage;
+  VPmqPage = VPmqPage;
+  VPftPage = VPftPage;
+  VPhnPage = VPhnPage;
+  VPkpPage = VPkpPage;
+  VPksPage = VPksPage;
+  VPmkPage = VPmkPage;
+  VPpsPage = VPpsPage;
+  VPrsPage = VPrsPage;
+  VPssPage = VPssPage;
+  VPtgPage = VPtgPage;
+  constructor() { }
+  ionViewDidLoad() {
     console.log('ionViewDidLoad TheSpeakersPage');
-}
+  }
+
 
 }

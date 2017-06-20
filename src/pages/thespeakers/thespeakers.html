@@ -163,9 +163,11 @@
 
     </ion-grid>
 
-    <div class="backtotop" ng-controller="PlaylistsCtrl" ng-click="scrollTop()">
+    <div (click)="scrollToTop()" class="backtotop">
       <ion-icon name="arrow-up"></ion-icon> &nbsp; &nbsp; Back to Top
     </div>
+
+
 
 
   </article>

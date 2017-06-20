@@ -1,5 +1,5 @@
-import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { Component, ViewChild } from '@angular/core';
+import { IonicPage, Content, NavController, NavParams } from 'ionic-angular';
 import { allAboutPage } from '../allabout/allabout';
 import { MarkPage } from '../mark/mark';
 import { Dubai101Page } from '../dubai101/dubai101';
@@ -10,9 +10,16 @@ import { DownloadsPage } from '../downloads/downloads';
   templateUrl: 'home.html',
 })
 export class HomePage {
-allAboutPage = allAboutPage;
-MarkPage = MarkPage;
-Dubai101Page = Dubai101Page;
-DownloadsPage = DownloadsPage;
-  constructor() {}
+
+  @ViewChild(Content) content: Content;
+
+  scrollToTop() {
+    this.content.scrollToTop();
+  }
+
+  allAboutPage = allAboutPage;
+  MarkPage = MarkPage;
+  Dubai101Page = Dubai101Page;
+  DownloadsPage = DownloadsPage;
+  constructor() { }
 }
