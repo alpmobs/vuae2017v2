@@ -1,4 +1,9 @@
 page-thespeakers {
+
+a:hover {
+  cursor: pointer !important;
+}
+
   /* The Speakers */
   header.mainScr {
     background-image: url("../assets/img/speakers-header.jpg");
