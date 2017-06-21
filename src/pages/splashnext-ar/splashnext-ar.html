@@ -1,0 +1,32 @@
+<ion-content>
+
+
+  <article class="welcomeCont">
+    <h1 dir="RTL">وقتكم <br/>الأن!</h1>
+    <div class="welcome">
+      <p dir="RTL">شجع نفسك لقد اتخذت أفضل قرار في حياتك. <br/> مرحباً بك في في-ماليزيا 2017 – دار هؤلاء الذين لا يضيعون وقتاً في ملاحقة ان يكونوا بلا حدود.
+        <br>
+        <br> افعل الأفضل.
+        <br> كن حراً.
+        <br> افعلها الأن!</p>
+    </div>
+  </article>
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar>
+    <ion-buttons start>
+      <button [navPush]="SplashPage" ion-button icon-left>
+        <ion-icon name="arrow-back"></ion-icon>
+      BACK
+      </button>
+    </ion-buttons>
+    <div class="pagination"><ion-icon name="radio-button-off"></ion-icon> <ion-icon name="radio-button-on"></ion-icon></div>
+    <ion-buttons end>
+      <button [navPush]="HomePageAR" ion-button icon-right>
+        NEXT
+        <ion-icon ios="ios-arrow-forward" name="arrow-forward"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-footer>

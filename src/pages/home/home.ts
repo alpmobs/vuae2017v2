@@ -7,7 +7,7 @@ import { DownloadsPage } from '../downloads/downloads';
 
 @Component({
   selector: 'page-home',
-  templateUrl: 'home.html',
+  templateUrl: 'home.html'
 })
 export class HomePage {
 
