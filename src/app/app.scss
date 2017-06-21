@@ -681,7 +681,13 @@ page-download .menus a i {
 
 /* The Speakers */
 
-page-vp header.mainScr {
+page-thespeakers { font-family: 'Lato' !important; }
+
+page-thespeakers header.mainScr {
+  background-image: url("../assets/img/speakers-header.jpg");
+}
+
+page-vp header.mainScr.mid {
   background-image: url("../assets/img/speakers-header.jpg");
   background-position: center center;
   background-size: cover;
@@ -699,6 +705,7 @@ page-thespeakers .speaker-name {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-decoration: none;
 }
 
 page-vp .speaker-name h1 {

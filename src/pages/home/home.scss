@@ -5,6 +5,46 @@ page-home {
   header.mainScr {
     background-image: url("../assets/img/home-background.jpg");
     background-size: cover;
+    display: flex;
+    justify-content: center;
+  }
+
+  .msg {
+    text-align: center;
+    width: 100% !important;
+  }
+  .msg p {
+    font-size: 100% !important;
+    margin-bottom: 3px;
+  }
+  .msg h4 {
+    font-size: 2.8rem;
+    margin-top: 5px;
+  }
+
+  .countdown {
+    display: inline-flex;
+    width: 100%;
+    color: white;
+    padding-top: 90%;
+    text-align: center;
+    justify-content: center;
+    font-family: 'LatoBlack';
+  }
+  .countdown .countdown-section {
+    display: inline;
+    margin: 0 3px 0 3px;
+  }
+
+  .countdown .countdown-section .numbers {
+    margin-bottom: 0px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .countdown .countdown-section .label {
+    font-size: 10px;
+    margin: 0px 8px 8px 8px;
   }
 
   .categories .col {
