@@ -47,6 +47,26 @@ page-home {
     margin: 0px 8px 8px 8px;
   }
 
+  .schedule {
+    display: inline-flex;
+    width: 100%;
+    color: white;
+    padding-top: 90%;
+    text-align: center;
+    justify-content: center;
+    font-family: 'LatoBlack';
+
+  }
+
+  .schedule button {
+    height: 50px;
+    padding: 0 25px;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.27);
+    font-size: 100%;
+    margin-top: 10px;
+  }
+
   .categories .col {
     color: #fff;
     height: 25vh;
