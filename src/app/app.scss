@@ -18,10 +18,12 @@ $dark-positive: #445569;
 $extra-dark: #2e3f53;
 $light: #ffffff;
 
+
+
 $BgB: #000;
 body {
   //General Resets
-  font-family: -apple-system, "Helvetica Neue" , "Segoe WP", sans-serif !important;
+  font-family: -apple-system, "Lato" , "Segoe WP", sans-serif !important;
   color: $light;
 }
 
@@ -823,6 +825,8 @@ page-merch .headline {
 
 /* Penang 101 */
 
+page-dubai101 article.cusContent { height: 100%; }
+
 page-dubai101 header.mainScr {
   background-image: url("../assets/img/penang101_header.jpg");
   background-position: center center;
@@ -1083,3 +1087,16 @@ ion-footer-bar a.back {
 { font-size: 1.2em; }
 
 /* Font size adjustment for larger screens */
+
+// background color adjustment for ios screens
+page-download article.cusContent,
+page-faqs article.cusContent,
+page-thespeakers article.cusContent,
+page-sched article.cusContent,
+page-dubai101 article.cusContent,
+page-whatto article.cusContent,
+page-whereto article.cusContent,
+page-howto article.cusContent,
+page-merchandise article.cusContent
+
+ { background-color: #fff; }
