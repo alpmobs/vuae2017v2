@@ -726,36 +726,37 @@ page-newslanding header.mainScr.mid h1 { bottom: 10%; }
 
 /* Merchandise */
 
-page-merch header.mainScr {
+page-merchandise header.mainScr {
   background-image: url("../assets/img/merchandise_header.jpg");
   background-position: center center;
   background-size: cover;
 }
-page-merch .headline {
-  color: #00A7BE;
-  margin: 30px 0 40px 0;
-}
+
 .merchCont {
   text-align: left;
 }
+
 .merchCont .item {
   border: 0 none;
+  margin: 0 0 20px 0;
 }
-.merchCont .item .merch-text {
-  color: #00a7be;
-  padding-left: 0;
+
+.merchCont .item .merch-title {
+  color: #00a7be !important;
+  padding-left: 0 !important;
+  margin: 0 0 10px 0;
 }
 .merchCont .item .merch-price {
-  color: #5a5a5a;
-  padding-right: 0;
-  text-align: right;
+  color: #5a5a5a !important;
+  padding-right: 0 !important;
+  text-align: left;
 }
 
 /* Penang 101 */
 
 page-dubai101 article.cusContent { height: 100%; }
 
-page-dubai101 header.mainScr {
+page-dubai101 header.mainScr, page-whereto header.mainScr, page-whatto header.mainScr, page-howto header.mainScr {
   background-image: url("../assets/img/penang101_header.jpg");
   background-position: center center;
   background-size: cover;
@@ -765,13 +766,13 @@ page-dubai101 .menus a {
   border-color: #00A7BE;
   width: 80%;
 }
-page-dubai101 article.cusContent p.headline {
+page-dubai101 article.cusContent p.headline, page-whereto article.cusContent p.headline, page-whatto article.cusContent p.headline,page-howto article.cusContent p.headline {
   color: #00a7be;
   margin: 30px 0 50px;
   font-size: 1em;
 }
 
-page-dubai101 .item {
+page-dubai101 .item, page-whereto .item, page-whatto .item, page-howto .item {
   padding: 0px;
   margin: 0px;
   border: none;
@@ -780,18 +781,18 @@ page-dubai101 .item {
   white-space: inherit;
   margin-bottom: 30px;
 }
-page-dubai101 .item img {
+page-dubai101 .item img, page-whereto .item img, page-whatto .item img, page-howto .item img {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-page-dubai101 .item .penang-item{
+page-dubai101 .item .penang-item, page-whereto .item .penang-item, page-whatto .item .penang-item ,page-howto .item .penang-item {
   display: block;
   margin-top: 10px;
 }
 
-page-dubai101 .penang-text, page-dubai101 .penang-desc, { text-align: left; }
+page-dubai101 .penang-text, page-whereto .penang-desc, page-whatto .penang-desc, page-howto .penang-desc { text-align: left; }
 
-page-dubai101 .penang-text {
+page-dubai101 .penang-text, page-whereto .penang-text, page-whatto .penang-text, page-howto .penang-text {
     color: #00a7be;
     font-size: 1.2em;
     margin-bottom: 10px;
@@ -799,7 +800,7 @@ page-dubai101 .penang-text {
 }
 page-dubai101 .penang-desc { font-size: .8em; text-align: left !important; }
 
-page-dubai101 .source { font-size: 0.8em; }
+page-dubai101 .source, page-dubai101 .source, page-dubai101 .source, page-dubai101 .source { font-size: 0.8em; }
 
 
 /* Buy Ticket */
@@ -961,6 +962,7 @@ article.page-change, article.welcomeCont {
 
 ion-footer {
   background: #F59656;
+  font-family: 'LatoRegular', Arial, sans-serif;
 }
 
 ion-footer .bar-buttons[start] {
@@ -1031,6 +1033,5 @@ page-vp article.cusContent
  { background-color: #fff; }
 
  // footer link color
- .bar-button-default-ios,
-.bar-button-md,
-  { color: #fff; font-family: "Lato"; }
+.bar-button,
+  { color: #fff; font-family: 'LatoRegular', Arial, sans-serif !important; font-size: 1.5rem; }
