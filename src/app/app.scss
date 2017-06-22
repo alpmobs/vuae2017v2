@@ -610,58 +610,8 @@ page-mark article.cusContent .step1 p:nth-child(3) {
   text-align: left;
   width: 51%;
 }
-.step2 label.item-radio {
-  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
-  border: 0 none;
-  display: inline-block;
-  height: 200px;
-  margin: 0 2px;
-  width: 30%;
-}
-.step2 .item-radio .radio-icon {
-  color: #fff;
-  margin: 0 auto;
-  position: relative;
-}
-.step2 .item-complex .item-content, .step2 .item-radio .item-content {
-  background: rgba(0, 167, 190, 0.37);
-  padding: 2px;
-}
-.step3 .col a {
-  color: #fff;
-  text-decoration: none;
-}
-.btnClaim {
-  color: #fff;
-  border: 0 none;
-  border-radius: 0;
-  display: block;
-  font-size: 12px;
-  line-height: 46px;
-  padding: 0;
-  text-transform: uppercase;
-  width: 100%;
-  margin: 0 auto;
-}
-.button.btnClaim {
-  background: #B24298 none repeat scroll 0 0;
-  transition: all 0.35s ease-in-out 0s;
-  -moz-transition: all 0.35s ease-in-out 0s;
-  -ms-transition: all 0.35s ease-in-out 0s;
-  -o-transition: all 0.35s ease-in-out 0s;
-  -webkit-transition: all 0.35s ease-in-out 0s;
-}
-.button.btnClaim:hover {
-  transform: scale(1.05);
-  color: #fff;
-}
-page-mark .photo {
-  height: 270px;
-  width: 270px;
-  background-color: #000;
-  margin: 40px auto;
-  color: #fff;
-}
+
+
 
 /* V-Con Wallpapers */
 
