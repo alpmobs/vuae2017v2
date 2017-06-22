@@ -2,7 +2,9 @@ page-splash {
   /* Splash */
 
   .content {
-    background-color: #357492;
+    background-image: url(../assets/img/langselector.jpg);
+    background-position: center center;
+    background-size: cover;
   }
   page-change ion-content {
     height: 100vh;
