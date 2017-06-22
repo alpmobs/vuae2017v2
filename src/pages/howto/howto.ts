@@ -4,7 +4,7 @@ import { Dubai101Page } from '../dubai101/dubai101';
 
 
 @Component({
-  selector: 'page-howto',
+  selector: 'page-dubai101',
   templateUrl: 'howto.html'
 })
 export class HowtoPage {
