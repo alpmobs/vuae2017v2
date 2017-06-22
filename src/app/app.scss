@@ -181,9 +181,10 @@ ion-menu .content {
 .menu-inner .merch-banner {
   width: 200px;
   height: 100px;
-  background-color: #000;
   margin-right: auto;
   margin-left: auto;
+  background:  url("../assets/img/merchbanner.png") repeat scroll center center / cover;
+  margin-bottom: 30px;
 }
 
 ion-header {
