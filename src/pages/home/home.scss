@@ -3,7 +3,7 @@ page-home {
   background: #fff;
 
   header.mainScr {
-    background-image: url("../assets/img/home-background.jpg");
+    background-image: url("..../assets/img/home-background.jpg");
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -94,25 +94,25 @@ page-home {
 
 
   .categories .row:nth-child(1) .col:nth-child(1) {
-    background: #fff url("../assets/img/home-button-1.jpg") repeat scroll center center / cover;
+    background: #fff url("..../assets/img/home-button-1.jpg") repeat scroll center center / cover;
   }
   .categories .row:nth-child(1) .col:nth-child(2) {
-    background: #fff url("../assets/img/home-button-2.jpg") repeat scroll center center / cover;
+    background: #fff url("..../assets/img/home-button-2.jpg") repeat scroll center center / cover;
   }
   .categories .row:nth-child(2) .col:nth-child(1) {
-    background: #fff url("../assets/img/home-button-3.jpg") repeat scroll center center / cover;
+    background: #fff url("..../assets/img/home-button-3.jpg") repeat scroll center center / cover;
   }
   .categories .row:nth-child(2) .col:nth-child(2) {
-    background: #fff url("../assets/img/home-button-4.jpg") repeat scroll center center / cover;
+    background: #fff url("..../assets/img/home-button-4.jpg") repeat scroll center center / cover;
   }
   .categories .row:nth-child(3) .col:nth-child(1) {
-    background: #fff url("../assets/img/home-button-5.jpg") repeat scroll center center / cover;
+    background: #fff url("..../assets/img/home-button-5.jpg") repeat scroll center center / cover;
   }
   .categories .row:nth-child(2) .col:nth-child(1) .title {
     top: 22%;
   }
   .categories .row:nth-child(3) .col:nth-child(2) {
-    background: #fff url("../assets/img/home-button-6.jpg") repeat scroll center center / cover;
+    background: #fff url("..../assets/img/home-button-6.jpg") repeat scroll center center / cover;
   }
   .categories .row .col {
     transition: all 0.35s ease-in-out 0s;

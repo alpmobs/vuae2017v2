@@ -761,15 +761,17 @@ page-merchandise .headline {
 }
 .merchCont .item {
   border: 0 none;
+  margin: 0 0 20px 0;
 }
-.merchCont .item .merch-text {
-  color: #00a7be;
+.merchCont .item .merch-title {
+  color: #00a7be !important;
   padding-left: 0;
+  margin: 0 0 10px 0;
 }
 .merchCont .item .merch-price {
-  color: #5a5a5a;
+  color: #5a5a5a !important;
   padding-right: 0;
-  text-align: right;
+  text-align: left;
 }
 
 /* Penang 101 */
