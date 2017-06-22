@@ -10,8 +10,13 @@ import { TheSpeakersPage } from '../thespeakers/thespeakers';
 export class SchedPage {
   Dubai101Page = Dubai101Page;
   TheSpeakersPage = TheSpeakersPage;
-  constructor(public navCtrl: NavController) {
 
+  @ViewChild(Content) content: Content;
+
+  scrollToTop() {
+    this.content.scrollToTop();
   }
+  
+  constructor(public navCtrl: NavController) {}
 
 }

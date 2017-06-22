@@ -4,10 +4,11 @@ import { allAboutPage } from '../allabout/allabout';
 import { MarkPage } from '../mark/mark';
 import { Dubai101Page } from '../dubai101/dubai101';
 import { DownloadsPage } from '../downloads/downloads';
+import { NewsPage } from '../news/news';
 
 @Component({
   selector: 'page-home',
-  templateUrl: 'home.html',
+  templateUrl: 'home.html'
 })
 export class HomePage {
 
@@ -19,6 +20,7 @@ export class HomePage {
 
   allAboutPage = allAboutPage;
   MarkPage = MarkPage;
+  NewsPage = NewsPage;
   Dubai101Page = Dubai101Page;
   DownloadsPage = DownloadsPage;
   constructor() { }

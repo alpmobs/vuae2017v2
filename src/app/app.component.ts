@@ -24,7 +24,7 @@ import { ChangeLangPage } from '../pages/changelang/changelang';
 export class MyApp {
   @ViewChild(Nav) nav: Nav;
 
-  rootPage: any = SchedPage;
+  rootPage: any = SplashPage;
   pages: Array<{title: string, component: any}>;
 
   constructor(public platform: Platform, public statusBar: StatusBar, public splashScreen: SplashScreen) {

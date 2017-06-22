@@ -28,8 +28,8 @@ page-splash {
     width: 80%;
   }
 
-  .list .item { background: none; margin: 0;}
-  .list .item .item-inner { border: none; margin: 0; }
+  .list .item { background: none; margin: 0; border: 0 !important; padding: 0 !important; }
+  .list .item .item-inner { border: none; margin: 0; padding: 0 !important; background: none !important; }
   ion-radio {
     margin: 0 !important;
   }
@@ -80,7 +80,7 @@ page-splash {
     background-position: center center;
     background-size: cover;
   }
-  
+
 
   page-change .ion-radio:nth-child(2) input {
     display: none;

@@ -1,0 +1,60 @@
+<ion-header>
+  <ion-toolbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <header class="mainScr">
+    <div class="msg">
+      <h4>MAY 3-7, 2017</h4>
+      <p>SUBTERRANEAN PENANG INTERNATIONAL CONVENTION & EXHIBITION CENTRE, PENANG, MALAYSIA</p>
+    </div>
+  </header>
+
+  <!-- VCON Categories -->
+  <div class="categories nopad">
+    <div class="row nopad">
+      <a [navPush]="allAboutPage" class="col col-50 nopad">
+        <div class="title"><span class="tinytxt">ALL ABOUT</span> V-UAE <span class="tinytxt">2017</span></div>
+      </a>
+      <a [navPush]="MarkPage" class="col col-50 nopad">
+        <div class="title"><span class="tinytxt">Make Your</span> V-Con Mark</div>
+      </a>
+    </div>
+    <div class="row nopad">
+      <a [navPush]="DownloadsPage" class="col col-50 nopad" txt50>
+        <div class="title" style="font-size: 16px;">Exclusive V-Con 2017 Downloads</div>
+      </a>
+      <a [navPush]="Dubai101Page" class="col col-50 nopad">
+        <div class="title">DUBAI<span class="tinytxt">101</span></div>
+      </a>
+    </div>
+  </div>
+
+
+  <div class="newscat">
+    <h6>NEWS AND UPDATES</h6>
+    <div class="row" >
+      <a href="" nav-direction="forward"  class="col item">
+        <h4>Title</h4>
+        <h3>in (category) </h3>
+        <img src=""  width="100%" height="auto" class="center ">
+
+        <div class="row">
+          <span class="col col-50 nopad date">Date</span>
+        </div>
+      </a>
+
+    </div>
+  </div>
+
+  <div class="backtotop" (click)="scrollToTop()" >
+    <ion-icon name="arrow-up"></ion-icon> &nbsp; &nbsp;
+    Back to Top
+  </div>
+
+
+</ion-content>
