@@ -1,15 +1,15 @@
 import { Component, ViewChild } from '@angular/core';
 import { IonicPage, Content, NavController, NavParams } from 'ionic-angular';
-import { Dubai101Page } from '../dubai101/dubai101';
-import { TheSpeakersPage } from '../thespeakers/thespeakers';
+import { Dubai101PageAR } from '../dubai101-ar/dubai101-ar';
+import { TheSpeakersPageAR } from '../thespeakers-ar/thespeakers-ar';
 
 @Component({
   selector: 'page-sched',
   templateUrl: 'sched-ar.html'
 })
 export class SchedPageAR {
-  Dubai101Page = Dubai101Page;
-  TheSpeakersPage = TheSpeakersPage;
+  Dubai101PageAR = Dubai101PageAR;
+  TheSpeakersPageAR = TheSpeakersPageAR;
   constructor(public navCtrl: NavController) {
 
   }

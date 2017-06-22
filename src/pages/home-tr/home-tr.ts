@@ -1,9 +1,9 @@
 import { Component, ViewChild } from '@angular/core';
 import { IonicPage, Content, NavController, NavParams } from 'ionic-angular';
-import { allAboutPage } from '../allabout/allabout';
-import { MarkPage } from '../mark/mark';
-import { Dubai101Page } from '../dubai101/dubai101';
-import { DownloadsPage } from '../downloads/downloads';
+import { allAboutPageTR } from '../allabout-tr/allabout-tr';
+import { MarkPageTR } from '../mark-tr/mark-tr';
+import { Dubai101PageTR } from '../dubai101-tr/dubai101-tr';
+import { DownloadsPageTR } from '../downloads-tr/downloads-tr';
 
 @Component({
   selector: 'page-home',
@@ -17,9 +17,9 @@ export class HomePageTR {
     this.content.scrollToTop();
   }
 
-  allAboutPage = allAboutPage;
-  MarkPage = MarkPage;
-  Dubai101Page = Dubai101Page;
-  DownloadsPage = DownloadsPage;
+  allAboutPageTR = allAboutPageTR;
+  MarkPageTR = MarkPageTR;
+  Dubai101PageTR = Dubai101PageTR;
+  DownloadsPageTR = DownloadsPageTR;
   constructor() { }
 }

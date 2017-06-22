@@ -106,9 +106,30 @@ import { VPpsPage } from '../pages/vp-pathman-senathirajah/vp-pathman-senathiraj
 import { VPrsPage } from '../pages/vp-ranjit-singh/vp-ranjit-singh';
 import { VPssPage } from '../pages/vp-sathi-senathirajah/vp-sathi-senathirajah';
 import { VPtgPage } from '../pages/vp-tg-kintanar/vp-tg-kintanar';
+
+
 import { WhattoPage } from '../pages/whatto/whatto';
+import { WhattoPageAR } from '../pages/whatto-ar/whatto-ar';
+import { WhattoPageFR } from '../pages/whatto-fr/whatto-fr';
+import { WhattoPageID } from '../pages/whatto-id/whatto-id';
+import { WhattoPageRU } from '../pages/whatto-ru/whatto-ru';
+import { WhattoPageTR } from '../pages/whatto-tr/whatto-tr';
+
 import { WheretoPage } from '../pages/whereto/whereto';
+import { WheretoPageAR } from '../pages/whereto-ar/whereto-ar';
+import { WheretoPageFR } from '../pages/whereto-fr/whereto-fr';
+import { WheretoPageID } from '../pages/whereto-id/whereto-id';
+import { WheretoPageRU } from '../pages/whereto-ru/whereto-ru';
+import { WheretoPageTR } from '../pages/whereto-tr/whereto-tr';
+
 import { HowtoPage } from '../pages/howto/howto';
+import { HowtoPageAR } from '../pages/howto-ar/howto-ar';
+import { HowtoPageFR } from '../pages/howto-fr/howto-fr';
+import { HowtoPageID } from '../pages/howto-id/howto-id';
+import { HowtoPageRU } from '../pages/howto-ru/howto-ru';
+import { HowtoPageTR } from '../pages/howto-tr/howto-tr';
+
+
 import { ChangeLangPage } from '../pages/changelang/changelang';
 import { SplashPage } from '../pages/splash/splash';
 
@@ -151,9 +172,12 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     ChangeLangPage,
     SplashPage,
     SplashnextPage, SplashnextPageAR, SplashnextPageFR, SplashnextPageID, SplashnextPageRU, SplashnextPageTR,
-    WheretoPage,
-    WhattoPage,
-    HowtoPage,
+
+    WheretoPage, WheretoPageAR, WheretoPageFR, WheretoPageID, WheretoPageRU, WheretoPageTR,
+
+    WhattoPage, WhattoPageAR, WhattoPageFR, WhattoPageID, WhattoPageRU, WhattoPageTR,
+
+    HowtoPage, HowtoPageAR, HowtoPageFR, HowtoPageID, HowtoPageRU, HowtoPageTR,
     VFPPage,
     VMPPage,
     VPahPage,
@@ -205,9 +229,12 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     ChangeLangPage,
     SplashPage,
     SplashnextPage, SplashnextPageAR, SplashnextPageFR, SplashnextPageID, SplashnextPageRU, SplashnextPageTR,
-    WheretoPage,
-    WhattoPage,
-    HowtoPage,
+
+    WheretoPage, WheretoPageAR, WheretoPageFR, WheretoPageID, WheretoPageRU, WheretoPageTR,
+
+    WhattoPage, WhattoPageAR, WhattoPageFR, WhattoPageID, WhattoPageRU, WhattoPageTR,
+
+    HowtoPage, HowtoPageAR, HowtoPageFR, HowtoPageID, HowtoPageRU, HowtoPageTR,
     VFPPage,
     VMPPage,
     VPahPage,

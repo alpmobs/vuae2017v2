@@ -1,13 +1,13 @@
 import { Component, ViewChild } from '@angular/core';
 import { IonicPage, Content, NavController, NavParams } from 'ionic-angular';
-import { Dubai101Page } from '../dubai101/dubai101';
+import { Dubai101PageRU } from '../dubai101-ru/dubai101-ru';
 
 @Component({
-  selector: 'page-whatto',
-  templateUrl: 'whatto.html'
+  selector: 'page-dubai101',
+  templateUrl: 'whatto-ru.html'
 })
-export class WhattoPage {
-  Dubai101Page = Dubai101Page;
+export class WhattoPageRU {
+  Dubai101PageRU = Dubai101PageRU;
   constructor() {
 
   }

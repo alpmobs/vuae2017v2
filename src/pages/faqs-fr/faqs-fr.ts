@@ -1,15 +1,15 @@
 import { Component, ViewChild } from '@angular/core';
 import { IonicPage, Content, NavController, NavParams } from 'ionic-angular';
-import { DownloadsPage } from '../downloads/downloads';
-import { ContactPage } from '../contact/contact';
+import { DownloadsPageFR } from '../downloads-fr/downloads-fr';
+import { ContactPageFR } from '../contact-fr/contact-fr';
 
 @Component({
   selector: 'page-faqs',
   templateUrl: 'faqs-fr.html'
 })
 export class FaqsPageFR {
-  DownloadsPage = DownloadsPage;
-  ContactPage = ContactPage;
+  DownloadsPageFR = DownloadsPageFR;
+  ContactPageFR = ContactPageFR;
   constructor(public navCtrl: NavController) { }
 
   @ViewChild(Content) content: Content;

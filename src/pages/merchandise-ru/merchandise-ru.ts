@@ -1,7 +1,7 @@
 import { Component, ViewChild } from '@angular/core';
 import { IonicPage, Content, NavController, NavParams } from 'ionic-angular';
-import { Dubai101Page } from '../dubai101/dubai101';
-import { MarkPage } from '../mark/mark';
+import { Dubai101PageRU } from '../dubai101-ru/dubai101-ru';
+import { MarkPageRU } from '../mark-ru/mark-ru';
 
 @IonicPage()
 @Component({
@@ -9,8 +9,8 @@ import { MarkPage } from '../mark/mark';
   templateUrl: 'merchandise-ru.html'
 })
 export class MerchandisePageRU {
-Dubai101Page = Dubai101Page;
-MarkPage = MarkPage;
+Dubai101PageRU = Dubai101PageRU;
+MarkPageRU = MarkPageRU;
 constructor() {}
 
 ionViewDidLoad() {

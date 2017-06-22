@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import { HomePage } from '../home/home';
-import { NewslandingPage } from '../newslanding/newslanding';
+import { HomePageAR } from '../home-ar/home-ar';
+import { NewslandingPageAR } from '../newslanding-ar/newslanding-ar';
 
 @IonicPage()
 @Component({
@@ -9,8 +9,8 @@ import { NewslandingPage } from '../newslanding/newslanding';
   templateUrl: 'allabout-ar.html'
 })
 export class allAboutPageAR {
-HomePage = HomePage;
-NewslandingPage = NewslandingPage;
+HomePageAR = HomePageAR;
+NewslandingPageAR = NewslandingPageAR;
   constructor() {}
   ionViewDidLoad() {
       console.log('ionViewDidLoad AboutPage');

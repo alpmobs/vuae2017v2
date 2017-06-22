@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import { TheSpeakersPage } from '../thespeakers/thespeakers';
-import { allAboutPage } from '../allabout/allabout';
+import { TheSpeakersPageAR } from '../thespeakers-ar/thespeakers-ar';
+import { allAboutPageAR } from '../allabout-ar/allabout-ar';
 
 @IonicPage()
 @Component({
@@ -9,7 +9,7 @@ import { allAboutPage } from '../allabout/allabout';
   templateUrl: 'newslanding-ar.html'
 })
 export class NewslandingPageAR {
-allAboutPage = allAboutPage;
-TheSpeakersPage = TheSpeakersPage;
+allAboutPageAR = allAboutPageAR;
+TheSpeakersPageAR = TheSpeakersPageAR;
   constructor() {}
 }

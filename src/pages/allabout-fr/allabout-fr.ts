@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import { HomePage } from '../home/home';
-import { NewslandingPage } from '../newslanding/newslanding';
+import { HomePageFR } from '../home-fr/home-fr';
+import { NewslandingPageFR } from '../newslanding-fr/newslanding-fr';
 
 @IonicPage()
 @Component({
@@ -9,8 +9,8 @@ import { NewslandingPage } from '../newslanding/newslanding';
   templateUrl: 'allabout-fr.html'
 })
 export class allAboutPageFR {
-HomePage = HomePage;
-NewslandingPage = NewslandingPage;
+HomePageFR = HomePageFR;
+NewslandingPageFR = NewslandingPageFR;
   constructor() {}
   ionViewDidLoad() {
       console.log('ionViewDidLoad AboutPage');

@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import { MerchandisePage } from '../merchandise/merchandise';
-import { DownloadsPage } from '../downloads/downloads';
+import { MerchandisePageFR } from '../merchandise-fr/merchandise-fr';
+import { DownloadsPageFR } from '../downloads-fr/downloads-fr';
 
 @IonicPage()
 @Component({
@@ -9,8 +9,8 @@ import { DownloadsPage } from '../downloads/downloads';
   templateUrl: 'mark-fr.html'
 })
 export class MarkPageFR {
-DownloadsPage = DownloadsPage;
-MerchandisePage = MerchandisePage;
+DownloadsPageFR = DownloadsPageFR;
+MerchandisePageFR = MerchandisePageFR;
 constructor() {
 }
 

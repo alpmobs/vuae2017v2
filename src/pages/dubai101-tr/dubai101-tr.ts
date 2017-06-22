@@ -1,21 +1,21 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import { WhattoPage } from '../whatto/whatto';
-import { WheretoPage } from '../whereto/whereto';
-import { HowtoPage } from '../howto/howto';
-import { SchedPage } from '../sched/sched';
-import { MerchandisePage } from '../merchandise/merchandise';
+import { WhattoPageTR } from '../whatto-tr/whatto-tr';
+import { WheretoPageTR } from '../whereto-tr/whereto-tr';
+import { HowtoPageTR } from '../howto-tr/howto-tr';
+import { SchedPageTR } from '../sched-tr/sched-tr';
+import { MerchandisePageTR } from '../merchandise-tr/merchandise-tr';
 
 @Component({
   selector: 'page-dubai101',
   templateUrl: 'dubai101-tr.html'
 })
 export class Dubai101PageTR {
-MerchandisePage = MerchandisePage;
-SchedPage = SchedPage;
-HowtoPage = HowtoPage;
-WheretoPage = WheretoPage;
-WhattoPage = WhattoPage;
+MerchandisePageTR = MerchandisePageTR;
+SchedPageTR = SchedPageTR;
+HowtoPageTR = HowtoPageTR;
+WheretoPageTR = WheretoPageTR;
+WhattoPageTR = WhattoPageTR;
   constructor() {}
 
 }

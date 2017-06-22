@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import { MarkPage } from '../mark/mark';
-import { FaqsPage } from '../faqs/faqs';
+import { MarkPageFR } from '../mark-fr/mark-fr';
+import { FaqsPageFR } from '../faqs-fr/faqs-fr';
 
 
 @Component({
@@ -9,8 +9,8 @@ import { FaqsPage } from '../faqs/faqs';
   templateUrl: 'downloads-fr.html'
 })
 export class DownloadsPageFR {
-  FaqsPage = FaqsPage;
-  MarkPage = MarkPage;
+  FaqsPageFR = FaqsPageFR;
+  MarkPageFR = MarkPageFR;
 
   constructor(public navCtrl: NavController) {
 
