@@ -29,7 +29,7 @@ page-splashnext {
 
   .welcomeCont h1 {
     color: #fff;
-    font-family: "LatoLight", Arial, sans-serif;
+    font-family: "LatoRegular", Arial, sans-serif;
     font-size: 30px;
     line-height: 36px;
     margin: 0 auto;
@@ -41,7 +41,7 @@ page-splashnext {
   .welcome {
     background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
     color: #fff;
-    font-family: "LatoLight", Arial, sans-serif;
+    font-family: "LatoRegular", Arial, sans-serif;
     font-size: 1em;
     left: 50%;
     margin: 0 auto;
@@ -50,6 +50,6 @@ page-splashnext {
     top: 50%;
     text-align: center;
     transform: translate(-50%, -50%);
-    width: 70%;
+    width: 50%;
   }
 }

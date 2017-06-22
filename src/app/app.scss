@@ -81,7 +81,7 @@ ion-menu .content {
 .menu-inner .list-ios,
 .item-ios {
   font-size: 1.25rem;
-  font-family: "Lato";
+  font-family: "LatoRegular";
   text-transform: uppercase;
   min-height: 3.4rem;
 }
@@ -512,7 +512,7 @@ page-allabout .about-title {
 }
 page-allabout .about-title h1:first-child, page-allabout .about-title h1:nth-child(2) {
   font-weight: 300;
-  font-family: "Lato";
+  font-family: "LatoRegular";
   color: #fff;
   margin: 0px;
 }
@@ -653,7 +653,7 @@ page-download .menus a i {
 
 /* The Speakers */
 
-page-thespeakers { font-family: 'Lato' !important; }
+page-thespeakers { font-family: 'LatoRegular' !important; }
 
 page-thespeakers header.mainScr {
   background-image: url("../assets/img/speakers-header.jpg");
@@ -685,7 +685,7 @@ page-vp .speaker-name h1 {
   margin-top: 0;
   position: initial;
   color:#00A7BE;
-  font-family: 'Lato';
+  font-family: 'LatoRegular';
   font-size: 36px;
 }
 
@@ -693,7 +693,7 @@ page-vp .speaker-name h2 {
   font-size: 18px;
   margin-bottom: 0px;
   color: #00A7BE;
-  font-family: 'Lato';
+  font-family: 'LatoRegular';
 }
 
 page-thespeakers p.intro {
