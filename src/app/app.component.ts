@@ -15,7 +15,7 @@ import { DownloadsPage } from '../pages/downloads/downloads';
 import { FaqsPage } from '../pages/faqs/faqs';
 import { ContactPage } from '../pages/contact/contact';
 import { SplashPage } from '../pages/splash/splash';
-import { ChangeLangPage } from '../pages/changelang/changelang';
+// import { ChangeLangPage } from '../pages/changelang/changelang';
 
 
 @Component({
@@ -24,7 +24,7 @@ import { ChangeLangPage } from '../pages/changelang/changelang';
 export class MyApp {
   @ViewChild(Nav) nav: Nav;
 
-  rootPage: any = SplashPage;
+  rootPage: any = HomePage;
   pages: Array<{title: string, component: any}>;
 
   constructor(public platform: Platform, public statusBar: StatusBar, public splashScreen: SplashScreen) {
@@ -42,8 +42,8 @@ export class MyApp {
       { title: 'Make Your V-Con Mark', component: MarkPage },
       { title: '#VUAE17 Wallpapers', component: DownloadsPage },
       { title: 'FAQs', component: FaqsPage },
-      { title: 'Contact Us', component: ContactPage },
-      { title: 'Change Language', component: ChangeLangPage }
+      { title: 'Contact Us', component: ContactPage }
+      // { title: 'Change Language', component: ChangeLangPage }
     ];
 
   }
