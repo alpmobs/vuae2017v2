@@ -1,21 +1,22 @@
 import { Component, ViewChild } from '@angular/core';
 import { IonicPage, Content, NavController, NavParams } from 'ionic-angular';
-import { TheSpeakersPageTR } from '../thespeakers/thespeakers-tr';
-import { VPagPageTR } from '../vp-arun-george/vp-arun-george-tr';
+import { TheSpeakersPageID } from '../thespeakers/thespeakers-id';
+import { VFPPageID } from '../vfp-joseph-bismark/vfp-joseph-bismark-id';
 
 @Component({
   selector: 'page-vp',
-  templateUrl: 'vp-pathman-senathirajah-tr.html'
+  templateUrl: 'vmp-dato-sri-vijay-eswaran-ID.html'
 })
-export class VPpsPageTR {
-  TheSpeakersPageTR = TheSpeakersPageTR;
-  VPagPageTR = VPagPageTR;
+export class VMPPageID {
+  TheSpeakersPage = TheSpeakersPage;
+  VFPPageID = VFPPageID;
 
   @ViewChild(Content) content: Content;
 
   scrollToTop() {
     this.content.scrollToTop();
   }
+
   constructor(public navCtrl: NavController) {
 
   }

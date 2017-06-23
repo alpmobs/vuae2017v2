@@ -1,16 +1,23 @@
-import { NgModule } from '@angular/core';
-import { IonicPageModule } from 'ionic-angular';
-import { VPtgPage } from '../vp-tg-kintanar/vp-tg-kintanar';
+import { Component, ViewChild } from '@angular/core';
+import { IonicPage, Content, NavController, NavParams } from 'ionic-angular';
+import { TheSpeakersPageTR } from '../thespeakers/thespeakers-tr';
+import { VPdiPageTR } from '../vp-donna-imson/vp-donna-imson-tr';
 
-@NgModule({
-  declarations: [
-    VPtgPage,
-  ],
-  imports: [
-    IonicPageModule.forChild(VPtgPage),
-  ],
-  exports: [
-    VPtgPage
-  ]
+@Component({
+  selector: 'page-vp',
+  templateUrl: 'vp-tg-kintanar-tr.html'
 })
-export class VPtgPageModule {}
+export class VPtgPageTR {
+  TheSpeakersPageTR = TheSpeakersPageTR;
+  VPdiPageTR = VPdiPageTR;
+
+  @ViewChild(Content) content: Content;
+
+  scrollToTop() {
+    this.content.scrollToTop();
+  }
+  constructor(public navCtrl: NavController) {
+
+  }
+
+}
