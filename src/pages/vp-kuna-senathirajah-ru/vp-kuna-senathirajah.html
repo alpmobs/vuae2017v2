@@ -11,39 +11,38 @@
 
   </header>
   <article class="cusContent">
-    <div class="speaker-photo"><img src="assets/img/m-vp-ks.png" width="100%" height="auto" class="center ">
+    <div class="speaker-photo"><img src="img/m-vp-ks.png" width="100%" height="auto" class="center ">
     </div>
     <div class= "speaker-name">
       <h2>V Partner</h2>
       <h1>Kuna Senathirajah</h1>
     </div>
-    <p class="intro">V Partner Kunaseelan Senathirajah started off as an accomplished corporate executive with strong background in Marketing and Research before becoming a powerhouse networker. Before joining The V in the year 2000, V Partner Kuna was a Research Analyst at Jones Lang Wooton.
+    <p class="intro">V Partner Kunaseelan Senathirajah начал свою карьеру в качестве корпоративного руководителя, и при этом у него была серьезная подготовка в сфере маркетинговых исследований. До того, как присоединиться к The V в 2000 году, он работал аналитиком-исследователем в компании Jones Lang Wooton.
     </p>
     <p>
-      His outstanding performance earned him a well-deserved promotion as a Commercial and Leasing Manager in just a short span of time. His role as the manager put him on top of important projects such as Petronas Twin Towers, KL Sentral, and other major investment and construction projects in Malaysia.
+      Его выдающаяся работоспособность обеспечила ему заслуженное продвижение по службе и, в конце концов, он занял должность управляющего по коммерции и лизингу, причём всё это произошло за очень короткий промежуток времени. Его роль менеджера вывела его на вершину таких крупных и важных проектов, как башни-близнецы Petronas, KL Sentral и других крупных инвестиционных и строительных проектов в Малайзии.
       <br/><br/>
-      When finally he joined The V, VP Kuna was tasked to develop new concepts and fresh ideas in staging Conferences and International Events. He organised and managed events in Malaysia, Indonesia, India and the Middle East – all of which were highly successful – at the beginning of his career with the company. He also initiated the idea of forming Global Leadership Forum (GLF), which has long since evolved into the new generation of leaders known as the V Ambassadors.
+      Когда он, в конце концов, присоединился к The V, VP Kuna предложили разработать новые концепции и свежие идеи для подготовки конференций и международных событий. Он обеспечил организацию и проведение мероприятий в Малайзии, Индонезии, Индии и на Ближнем Востоке, причем каждое из организованных им мероприятий прошло очень успешно, и это было лишь началом его карьеры в компании. Он также инициировал идею создания Global Leadership Forum (GLF), который со временем сформировал новое поколение лидеров, известных как V Ambassadors.
       <br/><br/>
-      With his appointment as a V Partner, Mr. Kuna brings with him a wealth of experience in conducting trainings before international crowds; developing markets in countries untapped; and strengthening ties between Corporate and the steadily growing network of global leaders, a commitment he shares with the other 13 V Partners.
-
+      Став V Partner, г-н Kuna применяет свой богатый опыт в проведении тренингов на международной сцене. Он также занимается вопросом разработки рынков в пока неосвоенных странах. Кроме этого, он стабильно укрепляет связи между корпоративным звеном компании и постоянно растущей сетью мировых лидеров, и свои обязательства он делит с другими 13-ю V Partners.
     </p>
-    <div (click)="scrollToTop()" class="backtotop">
-      <ion-icon name="arrow-up"></ion-icon> &nbsp; &nbsp; Back to Top
-    </div>
-
+    <div class="backtotop" ng-controller="PlaylistsCtrl"  ng-click="scrollTop()">
+    <i class="ion-ios-arrow-up"></i> &nbsp; &nbsp;
+    ВЕРНУТЬСЯ НАВЕРХ
+  </div>
   </article>
 </ion-content>
 
 <ion-footer>
   <ion-toolbar>
     <ion-buttons start>
-      <button [navPush]="TheSpeakersPage" ion-button icon-left>
+      <button [navPush]="TheSpeakersPageRU" ion-button icon-left>
         <ion-icon name="arrow-back"></ion-icon>
-        The Speakers
+        Спикеры
       </button>
     </ion-buttons>
     <ion-buttons end>
-      <button [navPush]="VPpsPage" ion-button icon-right>
+      <button [navPush]="VPpsPageRU" ion-button icon-right>
         Pathman Senathirajah
         <ion-icon ios="ios-arrow-forward" name="arrow-forward"></ion-icon>
       </button>

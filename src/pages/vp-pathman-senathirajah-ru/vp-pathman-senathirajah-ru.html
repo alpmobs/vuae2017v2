@@ -11,32 +11,32 @@
 
   </header>
   <article class="cusContent">
-    <div class="speaker-photo"><img src="assets/img/m-vp-ps.png" width="100%" height="auto" class="center ">
+    <div class="speaker-photo"><img src="img/m-vp-ps.png" width="100%" height="auto" class="center ">
     </div>
     <div class= "speaker-name">
       <h2>V Partner </h2>
       <h1>Pathman Senathirajah</h1>
     </div>
-    <p class = "intro">They say that the world has its way of leading you to where you’re supposed to be, so when V Partner Pathman Senathirajah was presented the opportunity to work with QNET, he bid the corporate world goodbye, and establish his own team called Gengold with his brother V Partner Sathi Senathirajah.
+    <p class = "intro">Говорят, что у вселенной есть свои способы привести нас туда, где мы должны быть, поэтому когда V Partner Pathman Senathirajah представилась возможность работать вместе с QNET, он попрощался с корпоративным миром и, вместе с братом V Partner Sathi Senathirajah, создал собственную команду под названием Gengold.
     </p>
     <p>
-      They say that the world has its way of leading you to where you’re supposed to be, so when V Partner Pathman Senathirajah was presented the opportunity to work with QNET, he bid the corporate world goodbye, and establish his own team called Gengold with his brother V Partner Sathi Senathirajah.
+      Говорят, что у вселенной есть свои способы привести нас туда, где мы должны быть, поэтому когда V Partner Pathman Senathirajah представилась возможность работать вместе с QNET, он попрощался с корпоративным миром и, вместе с братом V Partner Sathi Senathirajah, создал собственную команду под названием Gengold.
       <br/><br/>
-      For an energetic and crazy Chief of The V, it’s hard to believe that V Partner Pathman Senathirajah used to work as a legal officer before working fulltime in network marketing. Many IRs around the world look up to him for his outstanding skills in empowering networkers worldwide. Through the years he invested in finding innovative ways in training networkers to succeed.
+      Глядя на энергичного и сумасшедшего Шефа The V трудно поверить, что V Partner Pathman Senathirajah работал специалистом по правовым вопросам, прежде чем посвятить всё своё время сетевому маркетингу. Многие IR во всём мире берут с него пример благодаря его выдающимся навыкам по мотивации нетворкеров на глобальном уровне. Все эти годы он разрабатывает и применяет на практике инновационные, ведущие к успеху способы тренинга нетворкеров.
       <br/><br/>
-      He believes that network marketing as a business is based on creating, cultivating, and nurturing relationships. He continues to fulfill his mission of bridging the gap between two seemingly opposing worlds: networking and the corporate environment.
+      Шеф убеждён, что сетевой маркетинг - это бизнес, основанный на создании, воспитании и лелеянии отношений. Он продолжает выполнять свою миссию, соединяя два, казалось бы, противоположных друг другу мира - нетворкинг и корпоративную среду.
       <br/> <br/>
-      Being guided by the knowledge of our V Founder Dato’ Sri Vijay Eswaran and V Founder Joseph Bismark, Chief Pathman Senathirajah vows to be a limitless upline, brother, and guardian of every warrior’s dream.
+      Взяв за основу знания и мудрость наших основателей V Founder Dato’ Sri Vijay Eswaran и V Founder Joseph Bismark, Chief Pathman Senathirajah клянётся быть безграничным аплайном, братом и хранителем мечты каждого бойца.
       <br/><br/>
-      His first book Even a Moron With a Dream… was launched at V-Malaysia 2009 and his second book, Network Marekting for Morons was launched in 2011. At V-Indonesia 2012, he released yet another fun, entertaining and educational read--- The Adventures of Pippo the Unbelievable: The Journey Begins!
+      Его первая книга "Even a Moron With a Dream…" была представлена на V-Малайзия 2009, а вторая книга, получившая название "Network Marekting for Morons" была выпущена в 2011 году. На V-Индонезия 2012 он представил увлекательную и познавательную книгу под названием "The Adventures of Pippo the Unbelievable: The Journey Begins!"
       <br/><br/>
-      For Chief Pathman Senathirajah its important to focus on who you are going to become as it’s not about changing what you do, but redefining who you are.
+      По мнению Chief Pathman Senathirajah, очень важно сфокусироваться на том, кем ты собираешься стать, так как это не меняет того, что ты делаешь, а определяет тебя самого.
 
     </p>
-
-    <div (click)="scrollToTop()" class="backtotop">
-      <ion-icon name="arrow-up"></ion-icon> &nbsp; &nbsp; Back to Top
-    </div>
+    <div class="backtotop" ng-controller="PlaylistsCtrl"  ng-click="scrollTop()">
+    <i class="ion-ios-arrow-up"></i> &nbsp; &nbsp;
+    ВЕРНУТЬСЯ НАВЕРХ
+  </div>
   </article>
 
 </ion-content>
@@ -44,13 +44,13 @@
 <ion-footer>
   <ion-toolbar>
     <ion-buttons start>
-      <button [navPush]="TheSpeakersPage" ion-button icon-left>
+      <button [navPush]="TheSpeakersPageRU" ion-button icon-left>
         <ion-icon name="arrow-back"></ion-icon>
-        The Speakers
+        Спикеры
       </button>
     </ion-buttons>
     <ion-buttons end>
-      <button [navPush]="VPagPage" ion-button icon-right>
+      <button [navPush]="VPagPageRU" ion-button icon-right>
         Arun George
         <ion-icon ios="ios-arrow-forward" name="arrow-forward"></ion-icon>
       </button>
