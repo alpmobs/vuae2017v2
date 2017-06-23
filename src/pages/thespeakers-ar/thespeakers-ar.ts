@@ -56,9 +56,7 @@ export class TheSpeakersPageAR {
   VPssPageAR = VPssPageAR;
   VPtgPageAR = VPtgPageAR;
   constructor() { }
-  ionViewDidLoad() {
-    console.log('ionViewDidLoad TheSpeakersPage');
-  }
+  
 
 
 }

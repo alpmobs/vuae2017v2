@@ -1,7 +1,7 @@
 import { Component, ViewChild } from '@angular/core';
 import { IonicPage, Content, NavController, NavParams } from 'ionic-angular';
-import { TheSpeakersPageAR } from '../thespeakers/thespeakers-ar';
-import { VPrsPageAR } from '../vp-ranjit-singh/vp-ranjit-singh-ar';
+import { TheSpeakersPageAR } from '../thespeakers-ar/thespeakers-ar';
+import { VPrsPageAR } from '../vp-ranjit-singh-ar/vp-ranjit-singh-ar';
 
 
 @Component({

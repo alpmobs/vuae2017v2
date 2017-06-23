@@ -17,8 +17,6 @@ export class VFPPage {
     this.content.scrollToTop();
   }
 
-  constructor(public navCtrl: NavController) {
-
-  }
+  constructor() {}
 
 }

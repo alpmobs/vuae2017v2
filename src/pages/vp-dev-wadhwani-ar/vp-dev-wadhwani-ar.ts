@@ -1,10 +1,10 @@
 import { Component, ViewChild } from '@angular/core';
 import { IonicPage, Content, NavController, NavParams } from 'ionic-angular';
-import { TheSpeakersPageAR } from '../thespeakers/thespeakers-ar';
+import { TheSpeakersPageAR } from '../thespeakers-ar/thespeakers-ar';
 
 @Component({
   selector: 'page-vp',
-  templateUrl: 'vp-dev-wadhwani.html-ar'
+  templateUrl: 'vp-dev-wadhwani-ar.html'
 })
 export class VPdwPageAR {
   TheSpeakersPageAR = TheSpeakersPageAR;

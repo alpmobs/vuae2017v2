@@ -1,23 +1,16 @@
-import { Component, ViewChild } from '@angular/core';
-import { IonicPage, Content, NavController, NavParams } from 'ionic-angular';
-import { TheSpeakersPage } from '../thespeakers/thespeakers';
-import { VPdjPage } from '../vp-dev-johl/vp-dev-johl';
+import { NgModule } from '@angular/core';
+import { IonicPageModule } from 'ionic-angular';
+import { VPhnPage } from '../vp-hendra-nilam/vp-hendra-nilam';
 
-@Component({
-  selector: 'page-vp',
-  templateUrl: 'vp-hendra-nilam.html'
+@NgModule({
+  declarations: [
+    VPhnPage,
+  ],
+  imports: [
+    IonicPageModule.forChild(VPhnPage),
+  ],
+  exports: [
+    VPhnPage
+  ]
 })
-export class VPhnPage {
-  TheSpeakersPage = TheSpeakersPage;
-  VPdjPage = VPdjPage;
-
-  @ViewChild(Content) content: Content;
-
-  scrollToTop() {
-    this.content.scrollToTop();
-  }
-  constructor(public navCtrl: NavController) {
-
-  }
-
-}
+export class VPhnPageModule {}

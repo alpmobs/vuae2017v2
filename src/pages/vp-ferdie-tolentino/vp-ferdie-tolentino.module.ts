@@ -1,16 +1,16 @@
 import { NgModule } from '@angular/core';
 import { IonicPageModule } from 'ionic-angular';
-import { VPftPageFR } from '../vp-ferdie-tolentino-fr/vp-ferdie-tolentino-fr';
+import { VPftPage } from '../vp-ferdie-tolentino/vp-ferdie-tolentino';
 
 @NgModule({
   declarations: [
-    VPftPageFR,
+    VPftPage,
   ],
   imports: [
-    IonicPageModule.forChild(VPftPageFR),
+    IonicPageModule.forChild(VPftPage),
   ],
   exports: [
-    VPftPageFR
+    VPftPage
   ]
 })
-export class VPftPageFRModule {}
+export class VPftPageModule {}

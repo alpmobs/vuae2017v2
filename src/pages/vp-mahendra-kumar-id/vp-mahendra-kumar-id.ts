@@ -1,7 +1,7 @@
 import { Component, ViewChild } from '@angular/core';
 import { IonicPage, Content, NavController, NavParams } from 'ionic-angular';
-import { TheSpeakersPageID } from '../thespeakers/thespeakers-id';
-import { VPmqPageID } from '../vp-dr-motaz-qais/vp-dr-motaz-qais-id';
+import { TheSpeakersPageID } from '../thespeakers-id/thespeakers-id';
+import { VPmqPageID } from '../vp-dr-motaz-qais-id/vp-dr-motaz-qais-id';
 
 @Component({
   selector: 'page-vp',
