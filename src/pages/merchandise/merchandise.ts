@@ -1,5 +1,5 @@
 import { Component, ViewChild } from '@angular/core';
-import { IonicPage, Content, NavController, NavParams } from 'ionic-angular';
+import { IonicPage, Slides, Content, NavController, NavParams } from 'ionic-angular';
 import { Dubai101Page } from '../dubai101/dubai101';
 import { MarkPage } from '../mark/mark';
 
@@ -22,5 +22,10 @@ ionViewDidLoad() {
 scrollToTop() {
   this.content.scrollToTop();
 }
+
+@ViewChild(Slides) slides: Slides;
+
+autoplay() {}
+
 
 }

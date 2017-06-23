@@ -1,7 +1,27 @@
 page-merchandise {
-  .content { background: #fff; }
+  .content {
+    background: #fff;
+  }
+
   .headline {
     color: #00A7BE !important;
-    margin: 30px 0 40px 0 !important;
+    margin: 30px 0 40px !important;
+  }
+
+  .mainScr ion-slides {
+    height: 240px;
+    padding: 0;
+    margin: 0;
+  }
+
+  header.mainScr.mid {
+    min-height: 223px;
+    position: relative;
+    padding: 0;
+    width: 100%;
+  }
+
+  .swiper-pagination-bullet-active {
+    background: #fff;
   }
 }
