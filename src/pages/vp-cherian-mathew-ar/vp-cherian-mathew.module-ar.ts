@@ -1,24 +1,16 @@
-import { Component, ViewChild } from '@angular/core';
-import { IonicPage, Content, NavController, NavParams } from 'ionic-angular';
-import { TheSpeakersPageAR } from '../thespeakers/thespeakers-ar';
-import { VPdsPageAR } from '../vp-david-sharma/vp-david-sharma-ar';
+import { NgModule } from '@angular/core';
+import { IonicPageModule } from 'ionic-angular';
+import { VPcmPageAR } from '../vp-cherian-mathew-ar/vp-cherian-mathew-ar';
 
-
-@Component({
-  selector: 'page-vp',
-  templateUrl: 'vp-cherian-mathew-ar.html'
+@NgModule({
+  declarations: [
+    VPcmPageAR,
+  ],
+  imports: [
+    IonicPageModule.forChild(VPcmPageAR),
+  ],
+  exports: [
+    VPcmPageAR
+  ]
 })
-export class VPcmPageAR {
-  TheSpeakersPageAR = TheSpeakersPageAR;
-  VPdsPageAR = VPdsPageAR;
-
-  @ViewChild(Content) content: Content;
-
-  scrollToTop() {
-    this.content.scrollToTop();
-  }
-  constructor(public navCtrl: NavController) {
-
-  }
-
-}
+export class VPcmPageARModule {}

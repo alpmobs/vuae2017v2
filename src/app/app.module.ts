@@ -126,8 +126,8 @@ import { VPcmPageTR } from '../pages/vp-cherian-mathew-tr/vp-cherian-mathew-tr';
 
 import { VPdsPage } from '../pages/vp-david-sharma/vp-david-sharma';
 import { VPdsPageAR } from '../pages/vp-david-sharma-ar/vp-david-sharma-ar';
-import { VPdsPageID } from '../pages/vp-david-sharma-id/vp-david-sharma-fr';
-import { VPdsPageFR } from '../pages/vp-david-sharma-fr/vp-david-sharma-id';
+import { VPdsPageID } from '../pages/vp-david-sharma-id/vp-david-sharma-id';
+import { VPdsPageFR } from '../pages/vp-david-sharma-fr/vp-david-sharma-fr';
 import { VPdsPageRU } from '../pages/vp-david-sharma-ru/vp-david-sharma-ru';
 import { VPdsPageTR } from '../pages/vp-david-sharma-tr/vp-david-sharma-tr';
 
@@ -163,8 +163,8 @@ import { VPmqPageTR } from '../pages/vp-dr-motaz-qais-tr/vp-dr-motaz-qais-tr';
 
 import { VPftPage } from '../pages/vp-ferdie-tolentino/vp-ferdie-tolentino';
 import { VPftPageAR } from '../pages/vp-ferdie-tolentino-ar/vp-ferdie-tolentino-ar';
-import { VPftPageID } from '../pages/vp-ferdie-tolentino-id/vp-ferdie-tolentino-fr';
-import { VPftPageFR } from '../pages/vp-ferdie-tolentino-fr/vp-ferdie-tolentino-id';
+import { VPftPageFR } from '../pages/vp-ferdie-tolentino-fr/vp-ferdie-tolentino-fr';
+import { VPftPageID } from '../pages/vp-ferdie-tolentino-id/vp-ferdie-tolentino-id';
 import { VPftPageRU } from '../pages/vp-ferdie-tolentino-ru/vp-ferdie-tolentino-ru';
 import { VPftPageTR } from '../pages/vp-ferdie-tolentino-tr/vp-ferdie-tolentino-tr';
 

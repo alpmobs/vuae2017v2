@@ -1,24 +1,16 @@
-import { Component, ViewChild } from '@angular/core';
-import { IonicPage, Content, NavController, NavParams } from 'ionic-angular';
-import { TheSpeakersPage } from '../thespeakers/thespeakers';
-import { VFPPageRU } from '../vfp-joseph-bismark/vfp-joseph-bismark-ru';
+import { NgModule } from '@angular/core';
+import { IonicPageModule } from 'ionic-angular';
+import { VMPPageRU } from '../vmp-dato-sri-vijay-eswaran-ru/vmp-dato-sri-vijay-eswaran-ru';
 
-@Component({
-  selector: 'page-vp',
-  templateUrl: 'vmp-dato-sri-vijay-eswaran-ru.html'
+@NgModule({
+  declarations: [
+    VMPPageRU,
+  ],
+  imports: [
+    IonicPageModule.forChild(VMPPageRU),
+  ],
+  exports: [
+    VMPPageRU
+  ]
 })
-export class VMPPageRU {
-  TheSpeakersPageRU = TheSpeakersPageRU;
-  VFPPageRU = VFPPageRU;
-
-  @ViewChild(Content) content: Content;
-
-  scrollToTop() {
-    this.content.scrollToTop();
-  }
-
-  constructor(public navCtrl: NavController) {
-
-  }
-
-}
+export class VMPPageRUModule {}

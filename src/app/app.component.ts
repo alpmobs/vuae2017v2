@@ -147,7 +147,7 @@ export class MyApp {
     // used for an example of ngFor and navigation
     this.pages = [
       { title: 'Home', component: HomePageAR },
-      { title: 'All About V-UAE 2017', component: allAboutPageAR },
+      { title: 'All About V-UAE 2017', component: allAboutPage },
       { title: 'News and Updates', component: NewslandingPageAR },
       { title: 'The Speakers', component: TheSpeakersPage },
       { title: 'Daily Program Schedule', component: SchedPageAR },

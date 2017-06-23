@@ -1,34 +1,34 @@
 import { Component, ViewChild } from '@angular/core';
 import { IonicPage, Content, NavController, NavParams } from 'ionic-angular';
-import { VFPPage } from '../vfp-joseph-bismark/vfp-joseph-bismark';
-import { VMPPage } from '../vmp-dato-sri-vijay-eswaran/vmp-dato-sri-vijay-eswaran';
-import { VPahPage } from '../vp-adly-hassan/vp-adly-hassan';
-import { VPagPage } from '../vp-arun-george/vp-arun-george';
-import { VPcmPage } from '../vp-cherian-mathew/vp-cherian-mathew';
-import { VPdsPage } from '../vp-david-sharma/vp-david-sharma';
-import { VPdjPage } from '../vp-dev-johl/vp-dev-johl';
-import { VPdwPage } from '../vp-dev-wadhwani/vp-dev-wadhwani';
-import { VPdiPage } from '../vp-donna-imson/vp-donna-imson';
-import { VPmqPage } from '../vp-dr-motaz-qais/vp-dr-motaz-qais';
-import { VPftPage } from '../vp-ferdie-tolentino/vp-ferdie-tolentino';
-import { VPhnPage } from '../vp-hendra-nilam/vp-hendra-nilam';
-import { VPkpPage } from '../vp-kpadma/vp-kpadma';
-import { VPksPage } from '../vp-kuna-senathirajah/vp-kuna-senathirajah';
-import { VPmkPage } from '../vp-mahendra-kumar/vp-mahendra-kumar';
-import { VPpsPage } from '../vp-pathman-senathirajah/vp-pathman-senathirajah';
-import { VPrsPage } from '../vp-ranjit-singh/vp-ranjit-singh';
-import { VPssPage } from '../vp-sathi-senathirajah/vp-sathi-senathirajah';
-import { VPtgPage } from '../vp-tg-kintanar/vp-tg-kintanar';
-import { NewslandingPage } from '../newslanding/newslanding';
-import { SchedPage } from '../sched/sched';
+import { VFPPageTR } from '../vfp-joseph-bismark-tr/vfp-joseph-bismark-tr';
+import { VMPPageTR } from '../vmp-dato-sri-vijay-eswaran-tr/vmp-dato-sri-vijay-eswaran-tr';
+import { VPahPageTR } from '../vp-adly-hassan-tr/vp-adly-hassan-tr';
+import { VPagPageTR } from '../vp-arun-george-tr/vp-arun-george-tr';
+import { VPcmPageTR } from '../vp-cherian-mathew-tr/vp-cherian-mathew-tr';
+import { VPdsPageTR } from '../vp-david-sharma-tr/vp-david-sharma-tr';
+import { VPdjPageTR } from '../vp-dev-johl-tr/vp-dev-johl-tr';
+import { VPdwPageTR } from '../vp-dev-wadhwani-tr/vp-dev-wadhwani-tr';
+import { VPdiPageTR } from '../vp-donna-imson-tr/vp-donna-imson-tr';
+import { VPmqPageTR } from '../vp-dr-motaz-qais-tr/vp-dr-motaz-qais-tr';
+import { VPftPageTR } from '../vp-ferdie-tolentino-tr/vp-ferdie-tolentino-tr';
+import { VPhnPageTR } from '../vp-hendra-nilam-tr/vp-hendra-nilam-tr';
+import { VPkpPageTR } from '../vp-kpadma-tr/vp-kpadma-tr';
+import { VPksPageTR } from '../vp-kuna-senathirajah-tr/vp-kuna-senathirajah-tr';
+import { VPmkPageTR } from '../vp-mahendra-kumar-tr/vp-mahendra-kumar-tr';
+import { VPpsPageTR } from '../vp-pathman-senathirajah-tr/vp-pathman-senathirajah-tr';
+import { VPrsPageTR } from '../vp-ranjit-singh-tr/vp-ranjit-singh-tr';
+import { VPssPageTR } from '../vp-sathi-senathirajah-tr/vp-sathi-senathirajah-tr';
+import { VPtgPageTR } from '../vp-tg-kintanar-tr/vp-tg-kintanar-tr';
+import { NewslandingPageTR } from '../newslanding-tr/newslanding-tr';
+import { SchedPageTR } from '../sched-tr/sched-tr';
 
 @Component({
   selector: 'page-thespeakers',
   templateUrl: 'thespeakers-tr.html'
 })
 export class TheSpeakersPageTR {
-  NewslandingPage = NewslandingPage;
-  SchedPage = SchedPage;
+  NewslandingPageTR = NewslandingPageTR;
+  SchedPageTR = SchedPageTR;
 
   @ViewChild(Content) content: Content;
 
@@ -36,25 +36,25 @@ export class TheSpeakersPageTR {
     this.content.scrollToTop();
   }
 
-  VFPPage = VFPPage;
-  VMPPage = VMPPage;
-  VPahPage = VPahPage;
-  VPagPage = VPagPage;
-  VPcmPage = VPcmPage;
-  VPdsPage = VPdsPage;
-  VPdjPage = VPdjPage;
-  VPdwPage = VPdwPage;
-  VPdiPage = VPdiPage;
-  VPmqPage = VPmqPage;
-  VPftPage = VPftPage;
-  VPhnPage = VPhnPage;
-  VPkpPage = VPkpPage;
-  VPksPage = VPksPage;
-  VPmkPage = VPmkPage;
-  VPpsPage = VPpsPage;
-  VPrsPage = VPrsPage;
-  VPssPage = VPssPage;
-  VPtgPage = VPtgPage;
+  VFPPageTR = VFPPageTR;
+  VMPPageTR = VMPPageTR;
+  VPahPageTR = VPahPageTR;
+  VPagPageTR = VPagPageTR;
+  VPcmPageTR = VPcmPageTR;
+  VPdsPageTR = VPdsPageTR;
+  VPdjPageTR = VPdjPageTR;
+  VPdwPageTR = VPdwPageTR;
+  VPdiPageTR = VPdiPageTR;
+  VPmqPageTR = VPmqPageTR;
+  VPftPageTR = VPftPageTR;
+  VPhnPageTR = VPhnPageTR;
+  VPkpPageTR = VPkpPageTR;
+  VPksPageTR = VPksPageTR;
+  VPmkPageTR = VPmkPageTR;
+  VPpsPageTR = VPpsPageTR;
+  VPrsPageTR = VPrsPageTR;
+  VPssPageTR = VPssPageTR;
+  VPtgPageTR = VPtgPageTR;
   constructor() { }
   ionViewDidLoad() {
     console.log('ionViewDidLoad TheSpeakersPage');
