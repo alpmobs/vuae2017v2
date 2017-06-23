@@ -1,16 +1,16 @@
 import { NgModule } from '@angular/core';
 import { IonicPageModule } from 'ionic-angular';
-import { WhattoPage } from '../whatto/whatto';
+import { NewsPageRU } from '../news-ru/news-ru';
 
 @NgModule({
   declarations: [
-    WhattoPage,
+    NewsPageRU,
   ],
   imports: [
-    IonicPageModule.forChild(WhattoPage),
+    IonicPageModule.forChild(NewsPageRU),
   ],
   exports: [
-    WhattoPage
+    NewsPageRU
   ]
 })
-export class WhattoPageModule {}
+export class NewsPageRUModule {}
