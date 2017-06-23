@@ -5,7 +5,7 @@ import { VPtgPageID } from '../vp-tg-kintanar-id/vp-tg-kintanar-id';
 
 @Component({
   selector: 'page-vp',
-  templateUrl: 'vfp-joseph-bismark.html'
+  templateUrl: 'vfp-joseph-bismark-id.html'
 })
 export class VFPPageID {
   TheSpeakersPageID = TheSpeakersPageID;
