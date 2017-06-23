@@ -1,16 +1,16 @@
 import { NgModule } from '@angular/core';
 import { IonicPageModule } from 'ionic-angular';
-import { NewslandingPage } from '../newslanding/newslanding';
+import { NewslandingPageTR } from '../newslanding-tr/newslanding-tr';
 
 @NgModule({
   declarations: [
-    NewslandingPage,
+    NewslandingPageTR,
   ],
   imports: [
-    IonicPageModule.forChild(NewslandingPage),
+    IonicPageModule.forChild(NewslandingPageTR),
   ],
   exports: [
-    NewslandingPage
+    NewslandingPageTR
   ]
 })
-export class NewslandingPageModule {}
+export class NewslandingPageTRModule {}

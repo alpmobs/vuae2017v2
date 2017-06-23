@@ -8,61 +8,72 @@
 
 <ion-content>
   <header class="mainScr mid">
-    <h1>Merchandise</h1>
+    <ion-slides autoplay="400" loop="true" speed="3000" pager="true" paginationType="bullets">
+      <ion-slide>
+        <img src="assets/img/0622-coming-together-towards-progress-th.jpg"  width="100%" height="auto" class="center ">
+      </ion-slide>
+      <ion-slide>
+        <img src="assets/img/0622-coming-together-towards-progress-th.jpg"  width="100%" height="auto" class="center ">
+      </ion-slide>
+      <ion-slide>
+        <img src="assets/img/0622-coming-together-towards-progress-th.jpg"  width="100%" height="auto" class="center ">
+      </ion-slide>
+    </ion-slides>
   </header>
   <article class="cusContent">
 
     <p class="headline"> Visit The V Booth, and get your hands on these EXCLUSIVE V-Malaysia 2017 merchandise!</p>
+
     <div class="merchCont">
       <ion-grid>
-          <ion-row>
-              <!-- START MERCHANDISE ITEM-->
-              <ion-col class="item">
-              <div class="merch-image">
-                <img src="http://via.placeholder.com/200x200" width="100%" height="auto" class="center ">
-              </div>
-              <div class="merch-title">Title</div>
-              <div class="merch-price">Price</div>
+        <ion-row>
+          <!-- START MERCHANDISE ITEM-->
+          <ion-col class="item">
+            <div class="merch-image">
+              <img src="http://the-v.net/images/default-source/vcon17/item-1.jpg" width="100%" height="auto" class="center ">
+            </div>
+            <div class="merch-title">Limitless T-Shirt (Available in 3 colors)</div>
+            <div class="merch-price">RM60</div>
 
-              </ion-col>
+          </ion-col>
 
-              <ion-col class="item">
-              <div class="merch-image">
-                <img src="http://via.placeholder.com/200x200" width="100%" height="auto" class="center ">
-              </div>
-              <div class="merch-title">Title</div>
-              <div class="merch-price">Price</div>
+          <ion-col class="item">
+            <div class="merch-image">
+              <img src="http://the-v.net/images/default-source/vcon17/item-5.jpg" width="100%" height="auto" class="center ">
+            </div>
+            <div class="merch-title">Limitless Cap (Available in 2 colors)</div>
+            <div class="merch-price">RM50</div>
 
-              </ion-col>
+          </ion-col>
 
-          </ion-row>
+        </ion-row>
 
-          <ion-row>
-              <!-- START MERCHANDISE ITEM-->
-              <ion-col class="item">
-              <div class="merch-image">
-                <img src="http://via.placeholder.com/200x200" width="100%" height="auto" class="center ">
-              </div>
-              <div class="merch-title">Title</div>
-              <div class="merch-price">Price</div>
+        <ion-row>
+          <!-- START MERCHANDISE ITEM-->
+          <ion-col class="item">
+            <div class="merch-image">
+              <img src="http://the-v.net/images/default-source/vcon17/item-6.jpg" width="100%" height="auto" class="center ">
+            </div>
+            <div class="merch-title">Limitless Bracelet Design 1</div>
+            <div class="merch-price">RM80</div>
 
-              </ion-col>
+          </ion-col>
 
-              <ion-col class="item">
-              <div class="merch-image">
-                  <img src="http://via.placeholder.com/200x200" width="100%" height="auto" class="center ">
-              </div>
-              <div class="merch-title">Title</div>
-              <div class="merch-price">Price</div>
+          <ion-col class="item">
+            <div class="merch-image">
+              <img src="http://the-v.net/images/default-source/vcon17/item-7.jpg" width="100%" height="auto" class="center ">
+            </div>
+            <div class="merch-title">Limitless Bracelet Design 2</div>
+            <div class="merch-price">RM80</div>
 
-              </ion-col>
+          </ion-col>
 
-          </ion-row>
+        </ion-row>
 
 
-    </ion-grid>
+      </ion-grid>
 
-  </div>
+    </div>
   </article>
   <div (click)="scrollToTop()" class="backtotop">
     <ion-icon name="arrow-up"></ion-icon> &nbsp; &nbsp; Back to Top
@@ -73,13 +84,13 @@
 <ion-footer>
   <ion-toolbar>
     <ion-buttons start>
-      <button [navPush]="Dubai101Page" ion-button icon-left>
+      <button [navPush]="Dubai101PageTR" ion-button icon-left>
         <ion-icon name="arrow-back"></ion-icon>
         Dubai 101
       </button>
     </ion-buttons>
     <ion-buttons end>
-      <button [navPush]="MarkPage" ion-button icon-right>
+      <button [navPush]="MarkPageTR" ion-button icon-right>
         Make Your V-Con Mark
         <ion-icon ios="ios-arrow-forward" name="arrow-forward"></ion-icon>
       </button>

@@ -1,16 +1,16 @@
 import { NgModule } from '@angular/core';
 import { IonicPageModule } from 'ionic-angular';
-import { allAboutPage } from '../allabout/allabout';
+import { MerchandisePageRU } from '../merchandise-ru/merchandise-ru';
 
 @NgModule({
   declarations: [
-    allAboutPage,
+    MerchandisePageRU,
   ],
   imports: [
-    IonicPageModule.forChild(allAboutPage),
+    IonicPageModule.forChild(MerchandisePageRU),
   ],
   exports: [
-    allAboutPage
+    MerchandisePageRU
   ]
 })
-export class allAboutPageModule {}
+export class MerchandisePageRUModule {}

@@ -8,36 +8,47 @@
 
 <ion-content>
   <header class="mainScr mid">
-    <h1><span class="txt48">Make Your V-Con Mark</span> <br></h1>
+    <h1><span class="txt48">ضع علامتك للفي-كون</span></h1>
   </header>
 
   <article class="cusContent">
     <div class="step1" style="display: block">
-        <p class="title">MAKE YOUR V-CON MARK</p>
-        <p class="headline">Stamp your photos with the magic of V-Con! Simply upload your photo, and wait for the generated image especially marked with a #VUAE17 badge!</p>
-        <!-- <p>1. Upload your photo.<br>
-           2. Choose a badge<br>
-           3. Select ‘MARK IT’<br>
-           4. Download and share your newly marked V-Con photo!</p>
-          <a class="button btnClaim">UPLOAD PHOTO</a> -->
-    </div>
+    <p class="title">ضع علامتك للفي-كون</p>
+    <p class="headline">علم على صورك بسحر الفي-كون! ببساطة حمل صورتك، انتظر الصورة الناتجة معلمة بعلامة #VUAE17!</p>
+    <!-- <p dir="RTL" style="text-align: right" >1. حمل صورتك<br>
+       2.  اختار الشارة<br>
+       3.  اختار "علمها"<br>
+       4.   قم بتنزيلها وشارك صورتك للفي-كون المعلم عليها حديثاً!</p>
+      <a class="button btnClaim">حمل صورتك</a> -->
+  </div>
 
   <div class="step2" style="display: block">
       <div class="photo"> <img src=""/> (photo here)</div>
-      <p class="title">Choose a Badge</p>
-      <ion-list>
-        <ion-radio ng-model="choice" ng-value="'A'">  <img src="../assets/img/badge-vcon.png" width="100%" height="auto" class="center "></ion-radio>
-        <ion-radio ng-model="choice" ng-value="'B'">  <img src="../assets/img/badge-v.png" width="100%" height="auto" class="center "></ion-radio>
-      </ion-list>
+      <p class="title">اختار شارة</p>
+        <ion-list class="selectBadge" radio-group [(ngModel)]="badge">
+
+          <ion-item>
+            <ion-label> <img src="assets/img/badge-vcon.png" width="100%" height="auto" class="center "></ion-label>
+            <ion-radio value="badgeVCON"></ion-radio>
+          </ion-item>
+
+          <ion-item>
+            <ion-label> <img src="assets/img/badge-v.png" width="100%" height="auto" class="center "></ion-label>
+            <ion-radio value="badgeV"></ion-radio>
+          </ion-item>
+
+        </ion-list>
   </div>
 
   <div class="step3" style="display: block">
-      <p class="title">Download & Share</p>
-      <div class="badge"><img src="../assets/img/photo-sample.png" width="100%" height="auto" class="center "></div>
+      <p class="title">نزل وشارك</p>
+      <div class="badge"><img src="assets/img/photo-sample.png" width="100%" height="auto" class="center "></div>
       <div class="row">
-        <div class="col col-50"><a href="" class="button btnClaim">Download</a></div>
-        <div class="col col-50"><a href="" class="button btnClaim">Share</a></div>
+        <div class="col col-50"><a href="" class="button btnClaim">نزل</a></div>
+        <div class="col col-50"><a href="" class="button btnClaim">شارك
+        </a></div>
       </div>
+
   </div>
   </article>
 </ion-content>
@@ -45,13 +56,13 @@
 <ion-footer>
   <ion-toolbar>
     <ion-buttons start>
-      <button [navPush]="MerchandisePage" ion-button icon-left>
+      <button [navPush]="MerchandisePageAR" ion-button icon-left>
         <ion-icon name="arrow-back"></ion-icon>
         Merchandise
       </button>
     </ion-buttons>
     <ion-buttons end>
-      <button [navPush]="DownloadsPage" ion-button icon-right>
+      <button [navPush]="DownloadsPageAR" ion-button icon-right>
         #VUAE17 Wallpapers
         <ion-icon ios="ios-arrow-forward" name="arrow-forward"></ion-icon>
       </button>

@@ -9,6 +9,6 @@ import { HomePageID } from '../home-id/home-id';
 })
 export class SplashnextPageID {
   SplashPage = SplashPage;
-  HomePage = HomePageID;
+  HomePageID = HomePageID;
   constructor() {}
 }

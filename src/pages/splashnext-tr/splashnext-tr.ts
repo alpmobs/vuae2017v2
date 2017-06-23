@@ -9,6 +9,6 @@ import { HomePageTR } from '../home-tr/home-tr';
 })
 export class SplashnextPageTR {
   SplashPage = SplashPage;
-  HomePage = HomePageTR;
+  HomePageTR = HomePageTR;
   constructor() {}
 }

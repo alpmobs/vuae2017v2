@@ -1,16 +1,16 @@
 import { NgModule } from '@angular/core';
 import { IonicPageModule } from 'ionic-angular';
-import { WheretoPage } from '../whereto/whereto';
+import { WheretoPageFR } from '../whereto-fr/whereto-fr';
 
 @NgModule({
   declarations: [
-    WheretoPage,
+    WheretoPageFR,
   ],
   imports: [
-    IonicPageModule.forChild(WheretoPage),
+    IonicPageModule.forChild(WheretoPageFR),
   ],
   exports: [
-    WheretoPage
+    WheretoPageFR
   ]
 })
-export class WheretoPageModule {}
+export class WheretoPageFRModule {}

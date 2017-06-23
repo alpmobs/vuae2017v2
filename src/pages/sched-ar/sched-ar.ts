@@ -10,8 +10,12 @@ import { TheSpeakersPageAR } from '../thespeakers-ar/thespeakers-ar';
 export class SchedPageAR {
   Dubai101PageAR = Dubai101PageAR;
   TheSpeakersPageAR = TheSpeakersPageAR;
-  constructor(public navCtrl: NavController) {
 
+  @ViewChild(Content) content: Content;
+
+  scrollToTop() {
+    this.content.scrollToTop();
   }
 
+    constructor() {}
 }

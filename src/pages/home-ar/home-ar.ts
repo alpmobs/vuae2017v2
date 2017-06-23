@@ -4,6 +4,7 @@ import { allAboutPageAR } from '../allabout-ar/allabout-ar';
 import { MarkPageAR } from '../mark-ar/mark-ar';
 import { Dubai101PageAR } from '../dubai101-ar/dubai101-ar';
 import { DownloadsPageAR } from '../downloads-ar/downloads-ar';
+import { NewsPageAR } from '../news-ar/news-ar';
 
 @Component({
   selector: 'page-home',
@@ -21,5 +22,6 @@ export class HomePageAR {
   MarkPageAR = MarkPageAR;
   Dubai101PageAR = Dubai101PageAR;
   DownloadsPageAR = DownloadsPageAR;
+  NewsPageAR = NewsPageAR;
   constructor() { }
 }

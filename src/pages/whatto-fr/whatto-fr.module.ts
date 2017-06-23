@@ -1,16 +1,16 @@
 import { NgModule } from '@angular/core';
 import { IonicPageModule } from 'ionic-angular';
-import { WhattoPage } from '../whatto/whatto';
+import { WhattoPageFR } from '../whatto-fr/whatto-fr';
 
 @NgModule({
   declarations: [
-    WhattoPage,
+    WhattoPageFR,
   ],
   imports: [
-    IonicPageModule.forChild(WhattoPage),
+    IonicPageModule.forChild(WhattoPageFR),
   ],
   exports: [
-    WhattoPage
+    WhattoPageFR
   ]
 })
-export class WhattoPageModule {}
+export class WhattoPageFRModule {}

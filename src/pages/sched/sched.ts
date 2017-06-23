@@ -16,7 +16,7 @@ export class SchedPage {
   scrollToTop() {
     this.content.scrollToTop();
   }
-  
-  constructor(public navCtrl: NavController) {}
+
+  constructor() {}
 
 }

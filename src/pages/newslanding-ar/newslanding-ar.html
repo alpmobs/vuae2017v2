@@ -7,7 +7,7 @@
 </ion-header>
 <ion-content>
   <header class="mainScr mid">
-    <h1>NEWS and UPDATES</h1>
+    <h1>الأخبار والمستجدات</h1>
   </header>
   <article class="cusContent">
 
@@ -18,21 +18,37 @@
       </a> -->
       <div class="newscat">
 
-    <div class="row" >
-      <a href="#" nav-direction="forward"  class="col item">
-        <h4>Title</h4>
-        <h3>in (category) </h3>
-        <img src=""  width="100%" height="auto" class="center ">
-
         <div class="row">
-          <span class="col col-50 nopad date">Date</span>
+          <a [navPush]="NewsPageAR" nav-direction="forward" class="col item">
+            <h4>Coming Together Towards Progress</h4>
+            <h3>in General Announcements </h3>
+            <img src="assets/img/0622-coming-together-towards-progress-th.jpg" width="100%" height="auto" class="center ">
+
+            <div class="row">
+              <span class="col col-50 nopad date">22 Jun 2017</span>
+            </div>
+          </a>
+
+          <a [navPush]="NewsPageAR" nav-direction="forward" class="col item">
+            <h4>tripsavr 2.0 for a Great Travel Experience</h4>
+            <h3>in General Announcements </h3>
+            <img src="assets/img/0622-tripsavr-20-for-a-great-travel-experience-th.jpg" width="100%" height="auto" class="center ">
+
+            <div class="row">
+              <span class="col col-50 nopad date">22 Jun 2017</span>
+            </div>
+          </a>
+
         </div>
-      </a>
+      </div>
 
     </div>
-  </div>
 
+    <div class="backtotop" (click)="scrollToTop()" >
+      <ion-icon name="arrow-up"></ion-icon> &nbsp; &nbsp;
+      العودة إلى أعلى
     </div>
+
 
   </article>
 
@@ -41,13 +57,13 @@
 <ion-footer>
   <ion-toolbar>
     <ion-buttons start>
-      <button [navPush]="allAboutPage" ion-button icon-left>
+      <button [navPush]="allAboutPageAR" ion-button icon-left>
         <ion-icon name="arrow-back"></ion-icon>
         About V-UAE 2017
       </button>
     </ion-buttons>
     <ion-buttons end>
-      <button [navPush]="TheSpeakersPage" ion-button icon-right>
+      <button [navPush]="TheSpeakersPageAR" ion-button icon-right>
         The Speakers
         <ion-icon ios="ios-arrow-forward" name="arrow-forward"></ion-icon>
       </button>

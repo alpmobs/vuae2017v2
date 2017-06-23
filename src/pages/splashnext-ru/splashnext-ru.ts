@@ -9,6 +9,6 @@ import { HomePageRU } from '../home-ru/home-ru';
 })
 export class SplashnextPageRU {
   SplashPage = SplashPage;
-  HomePage = HomePageRU;
+  HomePageRU = HomePageRU;
   constructor() {}
 }
