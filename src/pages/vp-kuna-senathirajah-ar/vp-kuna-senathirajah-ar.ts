@@ -1,16 +1,16 @@
 import { Component, ViewChild } from '@angular/core';
 import { IonicPage, Content, NavController, NavParams } from 'ionic-angular';
-import { TheSpeakersPage } from '../thespeakers/thespeakers';
-import { VPpsPage } from '../vp-pathman-senathirajah/vp-pathman-senathirajah';
+import { TheSpeakersPageAR } from '../thespeakers/thespeakers-ar';
+import { VPpsPageAR } from '../vp-pathman-senathirajah/vp-pathman-senathirajah-ar';
 
 
 @Component({
   selector: 'page-vp',
-  templateUrl: 'vp-kuna-senathirajah.html'
+  templateUrl: 'vp-kuna-senathirajah-ar.html'
 })
-export class VPksPage {
-  TheSpeakersPage = TheSpeakersPage;
-  VPpsPage = VPpsPage;
+export class VPksPageAR {
+  TheSpeakersPageAR = TheSpeakersPageAR;
+  VPpsPageAR = VPpsPageAR;
 
   @ViewChild(Content) content: Content;
 

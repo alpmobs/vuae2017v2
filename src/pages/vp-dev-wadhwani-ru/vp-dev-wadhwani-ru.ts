@@ -1,13 +1,13 @@
 import { Component, ViewChild } from '@angular/core';
 import { IonicPage, Content, NavController, NavParams } from 'ionic-angular';
-import { TheSpeakersPage } from '../thespeakers/thespeakers';
+import { TheSpeakersPageRU } from '../thespeakers/thespeakers-ru';
 
 @Component({
   selector: 'page-vp',
-  templateUrl: 'vp-dev-wadhwani.html'
+  templateUrl: 'vp-dev-wadhwani-id.html'
 })
-export class VPdwPage {
-  TheSpeakersPage = TheSpeakersPage;
+export class VPdwPageRU {
+  TheSpeakersPageRU = TheSpeakersPageRU;
 
   @ViewChild(Content) content: Content;
 

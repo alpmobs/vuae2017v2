@@ -11,36 +11,42 @@
 
   </header>
   <article class="cusContent">
-    <div class="speaker-photo"><img src="assets/img/m-vp-cm.png" width="100%" height="auto" class="center ">
+    <div class="speaker-photo"><img src="img/m-vp-cm.png" width="100%" height="auto" class="center ">
     </div>
     <div class= "speaker-name">
-      <h2>V Partner </h2>
+      <h2>V Partner</h2>
       <h1>Cherian Mathew</h1>
     </div>
-    <p class = "intro">“The only way to succeed is to help other people succeed as well.”
+    <p class="intro">
+      “Satu-satunya cara untuk sukses adalah dengan membantu orang lain menjadi sukses.”
     </p>
     <p>
-      Whenever we’re asked to give unforgettable moments in our career, it’s easy to mention the recognitions that we have received for our hardwork, however V Partner Cherian Mathew begs to differ.
+      Kapanpun kita ditanyakan untuk memberikan momen tak terlupakan dalam karir kita, mudah untuk menyebutkan pengakuan yang didapat atas kerja keras, bagaimanapun juga V Partner Cherian Mathew memohon untuk hal yang beda.
       <br/><br/>
-      People expressing gratitude for changing their lives are the kind of instances that makes it to his list of unforgettable moments as a V Partner.
+      Orang mengekspresikan rasa syukur untuk merubah hidup mereka merupakan contoh yang masuk ke dalam daftar momen tak terlupakan sebagai V Partner.
       <br/><br/>
-      He believes that he succeeded in this business through consistency, focus and being committed to his people’s achievements. “It’s about being consistent for a long period of time, and helping others achieve success as well,” he said.
-      <br/> <br/>
-      He notes the changes that he has observed through the years working between Middle East and Africa. He explains that back then, QNET was the only hope available for common people to change their lives, but now there are a lot of opportunities that he would like to work on and become successful.
+      Ia percaya bahwa ia sukses di dalam bisnis ini karena konsistensi, fokud, dan komitmen terhadap prestasi orang lain. “Ini tentang konsisten jangka panjang, dan membantu orang lain meraih sukses juga,” katanya.
       <br/><br/>
-      “Working in the Middle East requires you to change your ways, and adapt to the local environment. What works in the Middle East, doesn’t work in Africa,” he shares. He has to consistently adjust everything about him which includes how he approaches a prospect, and how he executes his presentacion.
+      Ia menekankan pada perubahan bahwa ia telah memperhatikan bertahun-tahun bekerja antara di Timur Tengah dan Afrika. Ia menjelaskan bahwa dulu, QNET hanya satu-satunya harapan yang tersedia bagi orang biasa untuk mengubah hidup mereka, tapi sekarang banyak kesempatan untuk bekerja dan menjadi sukses.
       <br/><br/>
-      If others are scared of the idea of change, VP Cherian Mathew fears its opposite – STAYING THE SAME. Not that change is easy for the veteran leader who’s in the business for 17 years, but for him, change is the only option that he has, therefore he has to embrace it. “If I don’t change the way I do my business, I will be left alone. I have to create the same success I have created many years back,” he said. No change, no growth.
+      “Bekerja di Timur Tengah memerlukan anda merubah jalan, dan beradaptasi dengan lingkungan sekitar. Apa yang berhasil di Timur Tengah, tidak berhasil di Afrika,” katanya. Ia harus terus menyesuaikan semuanya tentang ia termasuk bagaimana mendekati prospek, dan bagaimana ia melakukan presentasi.
       <br/><br/>
-      For VP Cherian Mathew, there’s no better journey than network marketing with QNET. First is because it’s about him and maintaining his success. Second is that meeting new people and helping the young generation succeed inspires him.
+      Jika orang lain takut ide akan perubahan, VP Cherian Mathew takut akan kebalikannya – TETAP SAMA. Bukannya perubahan itu gampang untuk pemimpin veteran yang telah ada di bisnis selama 17 tahun, tapi baginya, perubahan adalah satu-satunya cara yang ia miliki, sebab itu ia harus mendekatinya. “Jika saya tidak merubah cara bisnis saya, saya akan sendirian. Saya harus menciptakan kesuksesan yang sama yang saya ciptakan bertahun-tahun lalu,” katanya. Tidak ada perubahan, tidak ada pertumbuhan.
       <br/><br/>
-      “It’s exciting for me to continue what I’m doing,” says the leader whose forte is the African region.
+      Bagi VP Cherian Mathew tidak ada perjalanan yang lebih baik dibandingkan network marketing bersama QNET. Pertama karena ini tentang dirinya dan menjaga kesuksesannya. Kedua adalah bahwa bertemu orang baru dan membantu generasi muda menjadi sukses menginspirasinya.
       <br/><br/>
-      VP Cherian Mathew wants to be known as somebody that never gives up. “I think that I believe in a person more than they believe in themselves,” he said. This never give up attitude has what groomed VP Cherian Mathew to grow and be the top leader that he is today.
+      “Ini membuat saya bersemangat untuk melanjutkan apa yang sedang saya lakukan,” kata pemimpin yang ahli di wilayah Afrika.
+      <br/><br/>
+      VP Cherian Mathew ingin dikenal sebagai sosok yang tidak pernah menyerah. “Saya pikir bahwa saya lebih percaya kepada seseorang dibandingkan ia percaya pada dirinya sendiri,” katanya. Sikap pantang menyerah ini disiapkan dari awal oleh VP Cherian Mathew untuk tumbuh menjadi pemimpin top seperti sekarang ini.
+
     </p>
-    <div (click)="scrollToTop()" class="backtotop">
-      <ion-icon name="arrow-up"></ion-icon> &nbsp; &nbsp; Back to Top
-    </div>
+
+<div class="backtotop" ng-controller="PlaylistsCtrl"  ng-click="scrollTop()">
+    <i class="ion-ios-arrow-up"></i> &nbsp; &nbsp;
+    KEMBALI KE ATAS
+  </div>
+
+
 
   </article>
 </ion-content>
@@ -49,13 +55,13 @@
 <ion-footer>
   <ion-toolbar>
     <ion-buttons start>
-      <button [navPush]="TheSpeakersPage" ion-button icon-left>
+      <button [navPush]="TheSpeakersPageID" ion-button icon-left>
         <ion-icon name="arrow-back"></ion-icon>
-        The Speakers
+        Pembicara
       </button>
     </ion-buttons>
     <ion-buttons end>
-      <button [navPush]="VPdsPage" ion-button icon-right>
+      <button [navPush]="VPdsPageID" ion-button icon-right>
         David Sharma
         <ion-icon ios="ios-arrow-forward" name="arrow-forward"></ion-icon>
       </button>

@@ -1,15 +1,15 @@
 import { Component, ViewChild } from '@angular/core';
 import { IonicPage, Content, NavController, NavParams } from 'ionic-angular';
-import { TheSpeakersPage } from '../thespeakers/thespeakers';
-import { VFPPage } from '../vfp-joseph-bismark/vfp-joseph-bismark';
+import { TheSpeakersPageID } from '../thespeakers/thespeakers-id';
+import { VFPPageID } from '../vfp-joseph-bismark/vfp-joseph-bismark-id';
 
 @Component({
   selector: 'page-vp',
-  templateUrl: 'vmp-dato-sri-vijay-eswaran.html'
+  templateUrl: 'vmp-dato-sri-vijay-eswaran-ID.html'
 })
-export class VMPPage {
-  TheSpeakersPage = TheSpeakersPage;
-  VFPPage = VFPPage;
+export class VMPPageID {
+  TheSpeakersPageID = TheSpeakersPageID;
+  VFPPageID = VFPPageID;
 
   @ViewChild(Content) content: Content;
 

@@ -11,38 +11,36 @@
 
   </header>
   <article class="cusContent">
-    <div class="speaker-photo"><img src="assets/img/m-vp-ah.png" width="100%" height="auto" class="center ">
+    <div class="speaker-photo"><img src="img/m-vp-ah.png" width="100%" height="auto" class="center ">
     </div>
     <div class= "speaker-name">
       <h2>V Partner</h2>
       <h1>Adly Hassan</h1>
     </div>
     <p>
-      VP Adly is a man of dreams and conviction. He was introduced to QNET by his brother, and his life took a most unexpected turn. Filled with determination to achieve his dreams, success came to him just after a few years. For him, there’s no such thing as ‘secrets to success’. You wlll succeed as long as you’re dedicated to be the best person that you can be.
+      VP Adly - человек мечтаний и убеждений. Он узнал про QNET от своего брата, после чего его жизнь изменилась самым неожиданным образом. Благодаря настойчивому желанию осуществить свои мечты, успех пришел к нему уже через несколько лет. Для него не существует понятия ‘секрет успеха'. Вы обязательно достигнете успеха при условии, что всем сердцем стремитесь стать лучшим человеком, каким вы можете стать.
       <br/><br/>
-      A prominent servant-leader to his team, The Pathfinders, VP Adly has built networks in Sudan, UAE, Egypt, North Africa, and West Africa.
+      Знаменитый в своей команде The Pathfinders лидер через служение, VP Adly построил сеть в Судане, ОАЭ, Египте, Северной Африке и Западной Африке.
       <br/><br/>
-      VP Adly was announced as a V Partner during V-Malaysia 2009. His addition to The V’s elite roster of leaders has provided a fresh insight and wisdom to take the organisation to the top.
-
-
+      VP Adly назначен V Partner во время V-Малайзия 2009. В элитный ряд лидеров пришёл человек со свежими взглядами и мудростью, которые, несомненно, помогут вывести организацию на самую вершину.
     </p>
-    <div (click)="scrollToTop()" class="backtotop">
-      <ion-icon name="arrow-up"></ion-icon> &nbsp; &nbsp; Back to Top </div>
-
-
+    <div class="backtotop" ng-controller="PlaylistsCtrl"  ng-click="scrollTop()">
+    <i class="ion-ios-arrow-up"></i> &nbsp; &nbsp;
+    ВЕРНУТЬСЯ НАВЕРХ
+  </div>
   </article>
 </ion-content>
 
 <ion-footer>
   <ion-toolbar>
     <ion-buttons start>
-      <button [navPush]="TheSpeakersPage" ion-button icon-left>
+      <button [navPush]="TheSpeakersPageRU" ion-button icon-left>
         <ion-icon name="arrow-back"></ion-icon>
-        The Speakers
+        Спикеры
       </button>
     </ion-buttons>
     <ion-buttons end>
-      <button [navPush]="VPssPage" ion-button icon-right>
+      <button [navPush]="VPssPageRU" ion-button icon-right>
         Sathi Senathirajah
         <ion-icon ios="ios-arrow-forward" name="arrow-forward"></ion-icon>
       </button>
