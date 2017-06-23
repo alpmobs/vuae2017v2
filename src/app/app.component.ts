@@ -138,7 +138,7 @@ import { ChangeLangPage } from '../pages/changelang/changelang';
 export class MyApp {
   @ViewChild(Nav) nav: Nav;
 
-  rootPage: any = HomePage;
+  rootPage: any = HomePageFR;
   pages: Array<{title: string, component: any}>;
 
   constructor(public platform: Platform, public statusBar: StatusBar, public splashScreen: SplashScreen) {
@@ -146,17 +146,17 @@ export class MyApp {
 
     // used for an example of ngFor and navigation
     this.pages = [
-      { title: 'Home', component: HomePage },
-      { title: 'All About V-UAE 2017', component: allAboutPage },
-      { title: 'News and Updates', component: NewslandingPage },
+      { title: 'Home', component: HomePageAR },
+      { title: 'All About V-UAE 2017', component: allAboutPageAR },
+      { title: 'News and Updates', component: NewslandingPageAR },
       { title: 'The Speakers', component: TheSpeakersPage },
-      { title: 'Daily Program Schedule', component: SchedPage },
-      { title: 'Dubai 101', component: Dubai101Page },
-      { title: 'Merchandise', component: MerchandisePage },
-      { title: 'Make Your V-Con Mark', component: MarkPage },
-      { title: '#VUAE17 Wallpapers', component: DownloadsPage },
-      { title: 'FAQs', component: FaqsPage },
-      { title: 'Contact Us', component: ContactPage },
+      { title: 'Daily Program Schedule', component: SchedPageAR },
+      { title: 'Dubai 101', component: Dubai101PageAR },
+      { title: 'Merchandise', component: MerchandisePageAR },
+      { title: 'Make Your V-Con Mark', component: MarkPageAR },
+      { title: '#VUAE17 Wallpapers', component: DownloadsPageAR },
+      { title: 'FAQs', component: FaqsPageAR },
+      { title: 'Contact Us', component: ContactPageAR },
       { title: 'Change Language', component: ChangeLangPage }
     ];
 
