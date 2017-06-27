@@ -34,10 +34,10 @@
       <br/><br/>
       Он берет пример со своей матери, которая, как он утверждает, была его "смыслом" с самого начала пути. VP Sathi также черпает вдохновение в таких личностях, как Нельсон Мандела и сэр Ричард Брэнсон.
     </p>
-    <div class="backtotop" ng-controller="PlaylistsCtrl"  ng-click="scrollTop()">
-    <i class="ion-ios-arrow-up"></i> &nbsp; &nbsp;
+    <div (click)="scrollToTop()" class="backtotop">
+        <ion-icon name="arrow-up"></ion-icon> &nbsp; &nbsp;
     ВЕРНУТЬСЯ НАВЕРХ
-  </div>   
+  </div>
   </article>
 </ion-content>
 

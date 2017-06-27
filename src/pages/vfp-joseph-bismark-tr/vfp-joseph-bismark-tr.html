@@ -37,8 +37,8 @@
       <br/>
       Bismark, grubun çeşitli operasyonlarını denetler ve dünyayı dolaşmadığı zamanlarda ailesiyle birlikte Singapur'da yaşar.
     </p>
-    <div class="backtotop" ng-controller="PlaylistsCtrl"  ng-click="scrollTop()">
-      <i class="ion-ios-arrow-up"></i> &nbsp; &nbsp;
+    <div (click)="scrollToTop()" class="backtotop">
+        <ion-icon name="arrow-up"></ion-icon> &nbsp; &nbsp;
       BAŞA DÖN
     </div>
   </article></ion-content>
