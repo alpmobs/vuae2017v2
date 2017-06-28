@@ -1061,3 +1061,14 @@ page-vp article.cusContent
     text-transform: uppercase;
     font-size: 1.2rem;
   }
+
+// Arabic
+
+.AR .cusContent p, .AR .penang-desc {
+  direction: rtl;
+  text-align: right;
+}
+
+.AR .penang-desc {
+  text-align: right !important;
+}
