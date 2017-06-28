@@ -1,5 +1,7 @@
-import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { Component, ViewChild } from '@angular/core';
+import { IonicPage, Content, NavController, NavParams } from 'ionic-angular';
+import { NewslandingPageRU } from '../newslanding-ru/newslanding-ru';
+import { TheSpeakersPageRU } from '../thespeakers-ru/thespeakers-ru';
 
 
 @Component({
@@ -7,9 +9,12 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   templateUrl: 'news-ru.html'
 })
 export class NewsPageRU {
+  NewslandingPageRU = NewslandingPageRU;
+  TheSpeakersPageRU = TheSpeakersPageRU;
+  @ViewChild(Content) content: Content;
 
-  constructor(public navCtrl: NavController) {
-
+  scrollToTop() {
+    this.content.scrollToTop();
   }
-
+  constructor(public navCtrl: NavController) {}
 }

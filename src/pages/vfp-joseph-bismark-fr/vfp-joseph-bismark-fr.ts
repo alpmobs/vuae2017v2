@@ -8,7 +8,7 @@ import { VPtgPageFR } from '../vp-tg-kintanar-fr/vp-tg-kintanar-fr';
   templateUrl: 'vfp-joseph-bismark-fr.html'
 })
 export class VFPPageFR {
-  TheSpeakersPage = TheSpeakersPageFR;
+  TheSpeakersPageFR = TheSpeakersPageFR;
   VPtgPageFR = VPtgPageFR;
 
   @ViewChild(Content) content: Content;
