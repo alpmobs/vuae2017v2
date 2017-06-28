@@ -4,6 +4,8 @@ import { allAboutPageRU } from '../allabout-ru/allabout-ru';
 import { MarkPageRU } from '../mark-ru/mark-ru';
 import { Dubai101PageRU } from '../dubai101-ru/dubai101-ru';
 import { DownloadsPageRU } from '../downloads-ru/downloads-ru';
+import { NewsPageRU } from '../news-ru/news-ru';
+
 
 @Component({
   selector: 'page-home',
@@ -21,5 +23,6 @@ export class HomePageRU {
   MarkPageRU = MarkPageRU;
   Dubai101PageRU = Dubai101PageRU;
   DownloadsPageRU = DownloadsPageRU;
+  NewsPageRU = NewsPageRU;
   constructor() { }
 }

@@ -4,6 +4,8 @@ import { allAboutPageTR } from '../allabout-tr/allabout-tr';
 import { MarkPageTR } from '../mark-tr/mark-tr';
 import { Dubai101PageTR } from '../dubai101-tr/dubai101-tr';
 import { DownloadsPageTR } from '../downloads-tr/downloads-tr';
+import { NewsPageTR } from '../news-tr/news-tr';
+
 
 @Component({
   selector: 'page-home',
@@ -21,5 +23,6 @@ export class HomePageTR {
   MarkPageTR = MarkPageTR;
   Dubai101PageTR = Dubai101PageTR;
   DownloadsPageTR = DownloadsPageTR;
+  NewsPageTR = NewsPageTR;
   constructor() { }
 }
