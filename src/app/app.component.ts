@@ -138,7 +138,7 @@ import { ChangeLangPage } from '../pages/changelang/changelang';
 export class MyApp {
   @ViewChild(Nav) nav: Nav;
 
-  rootPage: any = SplashPage;
+  rootPage: any = DownloadsPage;
   pages: Array<{title: string, component: any}>;
 
   constructor(public platform: Platform, public statusBar: StatusBar, public splashScreen: SplashScreen) {
@@ -162,33 +162,33 @@ export class MyApp {
 
 
 //      this.pages = [
-//      { title: 'Home', component: HomePageAR },
-//      { title: 'All About V-UAE 2017', component: allAboutPageAR },
-//      { title: 'News and Updates', component: NewslandingPageAR },
-//      { title: 'The Speakers', component: TheSpeakersPageAR },
-//      { title: 'Daily Program Schedule', component: SchedPageAR },
-//      { title: 'Dubai 101', component: Dubai101PageAR },
-//      { title: 'Merchandise', component: MerchandisePageAR },
-//      { title: 'Make Your V-Con Mark', component: MarkPageAR },
-//      { title: '#VUAE17 Wallpapers', component: DownloadsPageAR },
-//      { title: 'FAQs', component: FaqsPageAR },
-//      { title: 'Contact Us', component: ContactPageAR },
-//      { title: 'Change Language', component: ChangeLangPageAR }
+//      { title: 'الرئيسية', component: HomePageAR },
+//      { title: 'كل ما يخص V-UAE 2017', component: allAboutPageAR },
+//      { title: 'الأخبار والمستجدات', component: NewslandingPageAR },
+//      { title: 'المتحدثين', component: TheSpeakersPageAR },
+//      { title: 'الجدول اليومي للبرنامج', component: SchedPageAR },
+//      { title: 'دبي 101', component: Dubai101PageAR },
+//      { title: 'معروضات #VCON17', component: MerchandisePageAR },
+//      { title: 'ضع علامتك للفي-كون', component: MarkPageAR },
+//      { title: 'صور خلفيات #VCON17', component: DownloadsPageAR },
+//      { title: 'الأسئلة الشائعة', component: FaqsPageAR },
+//      { title: 'اتصل بنا', component: ContactPageAR },
+//      { title: 'أختار اللغة', component: ChangeLangPageAR }
 //    ];
 
 //      this.pages = [
-//      { title: 'Home', component: HomePageFR },
-//      { title: 'All About V-UAE 2017', component: allAboutPageFR },
-//      { title: 'News and Updates', component: NewslandingPageFR },
-//      { title: 'The Speakers', component: TheSpeakersPageFR },
-//      { title: 'Daily Program Schedule', component: SchedPageFR },
+//      { title: 'ACCUEIL', component: HomePageFR },
+//      { title: 'Tout sur le V-UAE 2017', component: allAboutPageFR },
+//      { title: 'Actualité et Mises à jour', component: NewslandingPageFR },
+//      { title: 'Les Orateurs', component: TheSpeakersPageFR },
+//      { title: 'Grille de programme quotidienne', component: SchedPageFR },
 //      { title: 'Dubai 101', component: Dubai101PageFR },
-//      { title: 'Merchandise', component: MerchandisePageFR },
-//      { title: 'Make Your V-Con Mark', component: MarkPageFR },
-//      { title: '#VUAE17 Wallpapers', component: DownloadsPageFR },
+//      { title: 'Marchandise', component: MerchandisePageFR },
+//      { title: 'Faites votre marque V-Con', component: MarkPageFR },
+//      { title: '#VUAE17 Fonds d’écran', component: DownloadsPageFR },
 //      { title: 'FAQs', component: FaqsPageFR },
-//      { title: 'Contact Us', component: ContactPageFR },
-//      { title: 'Change Language', component: ChangeLangPageFR }
+//      { title: 'Contactez-nous', component: ContactPageFR },
+//      { title: 'Sélectionnez une langue', component: ChangeLangPageFR }
 //    ];
 
 //      this.pages = [
@@ -207,33 +207,33 @@ export class MyApp {
 //    ];
 
 //      this.pages = [
-//      { title: 'Home', component: HomePageRU },
-//      { title: 'All About V-UAE 2017', component: allAboutPageRU },
-//      { title: 'News and Updates', component: NewslandingPageRU },
-//      { title: 'The Speakers', component: TheSpeakersPageRU },
-//      { title: 'Daily Program Schedule', component: SchedPageRU },
-//      { title: 'Dubai 101', component: Dubai101PageRU },
-//      { title: 'Merchandise', component: MerchandisePageRU },
-//      { title: 'Make Your V-Con Mark', component: MarkPageRU },
-//      { title: '#VUAE17 Wallpapers', component: DownloadsPageRU },
-//      { title: 'FAQs', component: FaqsPageRU },
-//      { title: 'Contact Us', component: ContactPageRU },
-//      { title: 'Change Language', component: ChangeLangPageRU }
+//      { title: 'ДОМАШНЯЯ СТРАНИЦА', component: HomePageRU },
+//      { title: 'Всё о V-UAE 2017', component: allAboutPageRU },
+//      { title: 'Новости и объявления', component: NewslandingPageRU },
+//      { title: 'Спикеры', component: TheSpeakersPageRU },
+//      { title: 'Ежедневное расписание', component: SchedPageRU },
+//      { title: 'Дубай 101', component: Dubai101PageRU },
+//      { title: 'Товары #VCON17', component: MerchandisePageRU },
+//      { title: 'Сделай свой значок V-Con', component: MarkPageRU },
+//      { title: 'Обои #VCON17', component: DownloadsPageRU },
+//      { title: 'Вопросы-ответы', component: FaqsPageRU },
+//      { title: 'Контакты', component: ContactPageRU },
+//      { title: 'Выбор языка', component: ChangeLangPageRU }
 //    ];
 
 //      this.pages = [
-//      { title: 'Home', component: HomePageTR },
-//      { title: 'All About V-UAE 2017', component: allAboutPageTR },
-//      { title: 'News and Updates', component: NewslandingPageTR },
-//      { title: 'The Speakers', component: TheSpeakersPageTR },
-//      { title: 'Daily Program Schedule', component: SchedPageTR },
+//      { title: 'ANA SAYFA', component: HomePageTR },
+//      { title: 'V-UAE 2017 Hakkında Her Şey', component: allAboutPageTR },
+//      { title: 'Haberler ve Güncellemeler', component: NewslandingPageTR },
+//      { title: 'Konuşmacılar', component: TheSpeakersPageTR },
+//      { title: 'Günlük Program ', component: SchedPageTR },
 //      { title: 'Dubai 101', component: Dubai101PageTR },
-//      { title: 'Merchandise', component: MerchandisePageTR },
-//      { title: 'Make Your V-Con Mark', component: MarkPageTR },
-//      { title: '#VUAE17 Wallpapers', component: DownloadsPageTR },
-//      { title: 'FAQs', component: FaqsPageTR },
-//      { title: 'Contact Us', component: ContactPageTR },
-//      { title: 'Change Language', component: ChangeLangPageTR }
+//      { title: 'V-UAE 2017 Ürünleri', component: MerchandisePageTR },
+//      { title: 'V-Con İzinizi Oluşturun', component: MarkPageTR },
+//      { title: 'V-UAE 2017 Duvar Kağıtları', component: DownloadsPageTR },
+//      { title: 'SSS', component: FaqsPageTR },
+//      { title: 'Bizimle İletişime Geçin', component: ContactPageTR },
+//      { title: 'Dil Seçin', component: ChangeLangPageTR }
 //    ];
 
   }
