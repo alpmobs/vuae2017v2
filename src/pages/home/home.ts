@@ -23,5 +23,14 @@ export class HomePage {
   NewsPage = NewsPage;
   Dubai101Page = Dubai101Page;
   DownloadsPage = DownloadsPage;
-  constructor() { }
+  constructor() {
+
+
+
+
+
+  }
+
+
+
 }
