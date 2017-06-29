@@ -944,7 +944,7 @@ page-contact.ar article.cusContent p { text-align: center !important; }
   background-color: #2A3A80;
 }
 article.page-change, article.welcomeCont {
-  height: 100vh;
+  height: 100%;
   position: relative;
 }
 
@@ -1021,13 +1021,14 @@ ion-footer-bar a.back {
   top: 60px;
   width: 70%;
 }
-#splash .welcome {
+
+page-splashnext .welcome {
   background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
   color: #fff;
   font-family: "LatoLight", Arial, sans-serif;
   font-size: 1em;
   left: 50%;
-  margin: 0 auto;
+  margin: 30px auto 0;
   padding: 0;
   position: absolute;
   top: 50%;
