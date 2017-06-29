@@ -78,20 +78,20 @@ ion-menu .content {
 
 // menu
 
-.menu-inner .list-ios,
-.item-ios {
+.menu-inner .list,
+.item {
   font-size: 1.25rem;
   font-family: "LatoRegular";
   text-transform: uppercase;
   min-height: 3.4rem;
 }
 
-.menu-inner .list-ios > .item-block:first-child,
-.menu-inner .list-ios > .item-block:last-child {
+.menu-inner .list > .item-block:first-child,
+.menu-inner .list > .item-block:last-child {
   border:none;
 }
 
-.item-ios[detail-push] .item-inner, button.item-ios:not([detail-none]) .item-inner, a.item-ios:not([detail-none]) .item-inner {
+.item[detail-push] .item-inner, button.item:not([detail-none]) .item-inner, a.item:not([detail-none]) .item-inner {
   background-image: none;
 }
 
@@ -944,7 +944,7 @@ page-contact.ar article.cusContent p { text-align: center !important; }
   background-color: #2A3A80;
 }
 article.page-change, article.welcomeCont {
-  height: 100vh;
+  height: 100%;
   position: relative;
 }
 
@@ -1021,13 +1021,14 @@ ion-footer-bar a.back {
   top: 60px;
   width: 70%;
 }
-#splash .welcome {
+
+page-splashnext .welcome {
   background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
   color: #fff;
   font-family: "LatoLight", Arial, sans-serif;
   font-size: 1em;
   left: 50%;
-  margin: 0 auto;
+  margin: 30px auto 0;
   padding: 0;
   position: absolute;
   top: 50%;
@@ -1077,3 +1078,6 @@ page-vp article.cusContent
 .AR .penang-desc {
   text-align: right !important;
 }
+
+
+.content-ios:not([no-bounce])>.scroll-content::before { bottom: 0; }
