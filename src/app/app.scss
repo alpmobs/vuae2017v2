@@ -639,10 +639,12 @@ page-download header.mainScr {
   background-size: cover;
   height: 355px;
 }
+
 page-download article.cusContent p {
   color: #B24298;
   font-size: 14px;
   line-height: 17px;
+  font-family: "LatoRegular", Arial, sans-serif !important;
   margin: 0 0 30px 0;
 }
 page-download .menus a {
