@@ -1071,6 +1071,8 @@ page-vp article.cusContent
 
 // Arabic
 
+.AR { text-align: right !important; }
+
 .AR .cusContent p, .AR .penang-desc {
   direction: rtl;
   text-align: right;
@@ -1079,6 +1081,5 @@ page-vp article.cusContent
 .AR .penang-desc {
   text-align: right !important;
 }
-
 
 .content-ios:not([no-bounce])>.scroll-content::before { bottom: 0; }
